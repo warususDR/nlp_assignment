@@ -1,0 +1,47 @@
+{
+  "extraction_date": "2025-11-13T23:28:50.515874",
+  "source_files": {
+    "FM21-76": "data\\FM21-76_SurvivalManual.pdf",
+    "FM3-05-70": "data\\fm3-05-70.pdf"
+  },
+  "chunking_strategies": {
+    "page": {
+      "description": "One chunk per page",
+      "total_chunks": 881,
+      "avg_chunk_size": 1396
+    },
+    "fixed_size": {
+      "description": "Fixed-size chunks with 200 char overlap",
+      "chunk_size": 1000,
+      "overlap": 200,
+      "total_chunks": 1540,
+      "avg_chunk_size": 999
+    },
+    "sentence": {
+      "description": "10 sentences per chunk",
+      "sentences_per_chunk": 10,
+      "total_chunks": 1577,
+      "avg_chunk_size": 779
+    }
+  },
+  "corpus_stats": [
+    {
+      "Manual": "FM21-76",
+      "Total Pages": 229,
+      "Total Characters": "511,373",
+      "Total Words": "88,517",
+      "Total Sentences": "5,988",
+      "Avg Chars/Page": "2233",
+      "Avg Words/Page": "387"
+    },
+    {
+      "Manual": "FM3-05-70",
+      "Total Pages": 652,
+      "Total Characters": "745,754",
+      "Total Words": "127,236",
+      "Total Sentences": "10,654",
+      "Avg Chars/Page": "1144",
+      "Avg Words/Page": "195"
+    }
+  ]
+}
