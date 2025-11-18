@@ -1,0 +1,1054 @@
+config,question,chunking,retrieval,llm,embedding,answer,generation_time,top_retrieval_scores,avg_retrieval_score,retrieved_chunks,context_overlap,answer_relevance,precision_at_k,recall,mrr
+gemma3+tfidf,How do I find water in the desert?,page,tfidf,gemma3,none,"Right, let’s talk about water in the desert – it’s absolutely critical. You’re going to be looking for a few key things. 
+
+Firstly, the pincushion cactus, *Mammilaria*, can be a lifeline. These barrel-shaped cacti hold a surprising amount of water, but be *extremely* careful – those spines are vicious. Approach with caution, and only consume the pulp if you’re certain of its identification. 
+
+Beyond that, you need to be constantly scanning for any signs of moisture. Look for depressions in the ground, especially after a rainfall, as these can collect rainwater.  And remember, heat plays tricks on your eyes – don't trust what you see. Get to higher ground; that's your best chance of spotting a water source.  Stay vigilant, and conserve your energy.",7.749776363372803,"[0.2890160701707482, 0.19247509829289997, 0.17091055109888145]",0.21746723985417651,"['FM3-05-70_page_454', 'FM3-05-70_page_218', 'FM3-05-70_page_213']",0.5294117647058824,0.0,0.21746723985417651,0.21746723985417651,0.2890160701707482
+gemma3+tfidf,How do I find water in the desert?,fixed_size,tfidf,gemma3,none,"Right, let’s talk about water in the desert – it’s absolutely critical. You’re going to be battling the elements, and dehydration will be your biggest enemy. 
+
+First, you need to understand the landscape. Trails – they almost always lead to water. Look for where paths converge, and follow them. Don’t just look for obvious signs like campsites or fires, but also pay attention to animal tracks – they’ll be heading to a water source too. 
+
+And keep an eye on the birds. You'll often see flocks circling over waterholes, especially at dawn and dusk. 
+
+Prioritize finding water above all else. It’s the key to survival out there.",6.297479629516602,"[0.1824746422684207, 0.18231191267656727, 0.1713758227822048]",0.17872079257573092,"['FM21-76_fixed_305', 'FM21-76_fixed_312', 'FM3-05-70_fixed_150']",0.5094339622641509,0.0,0.17872079257573092,0.17872079257573092,0.1824746422684207
+gemma3+tfidf,How do I find water in the desert?,sentence,tfidf,gemma3,none,"Right, let’s talk about water in the desert – it’s absolutely critical. The biggest mistake you can make is panicking and wasting energy. 
+
+First, *prioritize shade*. The sun will kill you faster than dehydration. Find or create some cover. 
+
+Next, look for signs of moisture. Follow animal trails – they often lead to water sources. Look for depressions in the ground, especially after rainfall. 
+
+You can also dig – a small, shallow pit might collect subsurface water. 
+
+Finally, and this is key, check the color of your urine. A light color means you’re hydrated, a dark color – you need to drink, *immediately*. 
+
+Don’t rely on finding a stream; it’s rare. Conserve what you have and be smart about it.",7.297865867614746,"[0.22733603690592116, 0.20078346259946706, 0.20021778999377]",0.20944576316638605,"['FM21-76_sent_302', 'FM3-05-70_sent_403', 'FM3-05-70_sent_829']",0.3893805309734513,0.0,0.20944576316638605,0.20944576316638608,0.22733603690592116
+gemma3+tfidf,What should I do if I encounter a venomous snake?,page,tfidf,gemma3,none,"Right, let’s get this straight. Encountering a venomous snake is a serious situation, and your immediate reaction is everything. 
+
+Firstly, *stay calm*. Panic will only make things worse. Assess the situation – how far away is it? What kind of snake is it? 
+
+If it's a large snake like a King Cobra, give it space. These snakes are intelligent, and they don’t want to bite. Slowly, deliberately, back away. Don't make any sudden movements. 
+
+If you’re dealing with a sea snake, like the *Pelamis platurus*, understand it’s a highly defensive creature. Keep your distance and move slowly. 
+
+Never attempt to handle or kill a venomous snake unless absolutely necessary for your survival. Prioritize escape and distance. 
+
+Do you understand?",7.327383756637573,"[0.24533648697219507, 0.21403577424728537, 0.1743960358932278]",0.2112560990375694,"['FM3-05-70_page_532', 'FM3-05-70_page_587', 'FM3-05-70_page_623']",0.4375,0.0,0.2112560990375694,0.2112560990375694,0.24533648697219507
+gemma3+tfidf,What should I do if I encounter a venomous snake?,fixed_size,tfidf,gemma3,none,"Right, let’s get this sorted. If you spot a venomous snake, your immediate priority is distance. Don’t approach it, don’t try to get a good look – that’s a mistake you can’t afford to make. 
+
+These snakes, like the King Cobra, often have incredibly potent venoms, capable of shutting down your nervous system. Most importantly, remember that many snakes possess both neurotoxic and hemotoxic venom. 
+
+Slowly, deliberately, back away. Maintain eye contact to show you’re aware of its presence, but don’t provoke it. If you’re in a situation where you’re tangled with one, carefully and calmly try to free yourself, avoiding any sudden movements. 
+
+Your life depends on keeping that distance. Understand?",6.84767746925354,"[0.30562994797971665, 0.19870754923677225, 0.16287266418489588]",0.22240338713379493,"['FM3-05-70_fixed_834', 'FM3-05-70_fixed_872', 'FM3-05-70_fixed_890']",0.43636363636363634,0.0,0.22240338713379493,0.22240338713379493,0.30562994797971665
+gemma3+tfidf,What should I do if I encounter a venomous snake?,sentence,tfidf,gemma3,none,"Right, let's get this sorted. Encountering a venomous snake is a serious situation, so stay calm. Your immediate priority is distance. Don't approach it, don't try to capture it – just back away slowly, keeping your eyes on the snake. 
+
+Observe its behavior. Many snakes, like the Yellow-bellied Sea Snake, are intelligent and will avoid confrontation. If you can, move to a position where you have an escape route. 
+
+Remember, these snakes are often wary of other venomous creatures. 
+
+If it feels threatened, it *might* strike, but generally, they'll try to avoid you.  Your safety is paramount. Get away, and get away fast.",6.256877422332764,"[0.287493009971984, 0.24609035069167068, 0.19128482947075653]",0.24162273004480372,"['FM3-05-70_sent_902', 'FM3-05-70_sent_942', 'FM3-05-70_sent_961']",0.42574257425742573,0.0,0.24162273004480372,0.24162273004480372,0.287493009971984
+gemma3+tfidf,How can I build a shelter in cold weather?,page,tfidf,gemma3,none,"Right, let’s talk about staying alive when the temperature drops. Building a shelter in cold weather isn’t just about finding a spot; it’s about fighting back against the cold itself. 
+
+First, assess your surroundings. What materials are available – branches, leaves, snow? The key is insulation. You need to trap air, and that’s where layering comes in. 
+
+A simple lean-to is a good start. Build a sturdy frame, then pile branches and leaves thickly against it. Snow can be used to insulate the walls – pack it down firmly. 
+
+Don't forget to protect yourself from wind. A small, enclosed space will do far more good than a large, open one. 
+
+Stay warm, stay dry, and keep moving to generate heat. It’s a constant battle, but with the right approach, you can win.",7.476898670196533,"[0.2936043132572203, 0.27688873660995134, 0.19852178657507874]",0.2563382788140835,"['FM21-76_page_146', 'FM3-05-70_page_229', 'FM3-05-70_page_241']",0.5528455284552846,0.0,0.2563382788140835,0.2563382788140835,0.2936043132572203
+gemma3+tfidf,How can I build a shelter in cold weather?,fixed_size,tfidf,gemma3,none,"Right, let's talk about building a shelter when the temperature’s dropping. It’s absolutely critical – cold is a killer, and a proper shelter is your first line of defense. 
+
+You need to focus on insulation. Think layers of natural materials – branches, pine needles, moss – stacked tightly to create a barrier against the wind and cold. Build a lean-to against a natural windbreak, like a rock face or a dense cluster of trees. 
+
+Don’t just build a wall; create a space that traps your body heat.  A small, enclosed area is far more effective than a large, open one.  And crucially, keep that space dry – moisture is your enemy.  Stay vigilant, and stay warm.",6.429659128189087,"[0.29584013961502587, 0.29004180650177425, 0.2446776672831345]",0.2768532044666449,"['FM21-76_fixed_343', 'FM3-05-70_fixed_390', 'FM3-05-70_fixed_389']",0.42574257425742573,0.0,0.2768532044666449,0.2768532044666449,0.29584013961502587
+gemma3+tfidf,How can I build a shelter in cold weather?,sentence,tfidf,gemma3,none,"Right, let’s talk shelter. When the cold really bites, your shelter needs to be your priority. You’re going to want to focus on wooded areas – they offer the best timber for construction. 
+
+If you're in a barren area, you’re limited to snow, but even that can be used effectively. Build something that blocks the wind and retains body heat. Think lean-tos, debris shelters – anything that creates a barrier. Don’t underestimate the importance of insulation; use anything you can find to create layers.  Stay dry, stay warm, and stay alive.",5.249861717224121,"[0.25082508986904584, 0.22508260267692862, 0.1983323672226689]",0.22474668658954777,"['FM3-05-70_sent_432', 'FM21-76_sent_325', 'FM21-76_sent_345']",0.5054945054945055,0.0,0.22474668658954777,0.22474668658954777,0.25082508986904584
+gemma3+tfidf,What are the best methods to purify water for drinking?,page,tfidf,gemma3,none,"Right, let’s get this sorted. Water’s the absolute key to survival, and frankly, it’s rarely going to be pristine. 
+
+If you’re relying on water from a lake, stream, or even a spring, you *must* purify it. Boiling is your best bet – a rolling boil for at least one minute will kill most pathogens. 
+
+But, if you can’t boil, build a filter. Layer sand, crushed rock, charcoal – you can even use cloth – in something like a bamboo stalk or a hollow log. This will remove some impurities, but it’s not a replacement for boiling. 
+
+Charcoal from your fire will help to remove the taste and smell. 
+
+Don’t forget, a good filter will only help, it’s boiling that truly ensures you’re drinking safe water. Keep it moving.",7.417971134185791,"[0.19958463866090365, 0.19786904061246502, 0.1209356137572684]",0.17279643101021236,"['FM3-05-70_page_100', 'FM21-76_page_61', 'FM21-76_page_62']",0.5546218487394958,0.0,0.17279643101021236,0.17279643101021236,0.19958463866090365
+gemma3+tfidf,What are the best methods to purify water for drinking?,fixed_size,tfidf,gemma3,none,"Right, let’s get you drinking clean water. When you’re dealing with saltwater, or frankly, any water that looks questionable, you need a layered approach. 
+
+First, you’ll want to build a still – ideally, you’ll need at least three to really get a good yield. The sun’s heat will evaporate the water, and it’ll condense back down into a drinkable form. 
+
+But even after that, you’ll still need to purify it. Layering materials – sand, charcoal, crushed rock, and cloth – in a container like a log or even an old shirt will remove impurities and the unpleasant taste. 
+
+Don’t just rely on the still alone; filtration is absolutely critical. Always purify your water, no matter how clean it looks. Stay vigilant, and stay hydrated.",7.088464975357056,"[0.23186661349094168, 0.22368427727354914, 0.17712591945346745]",0.21089227007265277,"['FM21-76_fixed_143', 'FM3-05-70_fixed_163', 'FM3-05-70_fixed_169']",0.5333333333333333,0.0,0.21089227007265277,0.21089227007265277,0.23186661349094168
+gemma3+tfidf,What are the best methods to purify water for drinking?,sentence,tfidf,gemma3,none,"Right, let’s talk about water. It’s absolutely critical – you can’t survive without it. 
+
+Now, when you’re out there, you’ll find water in all sorts of places, but you *must* treat it. Don’t take chances. 
+
+The simplest and most reliable method is boiling. Bring the water to a rolling boil for a full minute – that’s key. 
+
+If you don’t have a way to boil, purification tablets are a fantastic backup. Follow the instructions precisely. You can also use a tincture of iodine – five drops per canteen. 
+
+Ultimately, always purify your water before drinking it. It’s a simple rule, but it’s the difference between life and death out there.",6.612210512161255,"[0.2255039307220361, 0.21708213037595445, 0.1663083282561811]",0.20296479645139054,"['FM3-05-70_sent_173', 'FM21-76_sent_132', 'FM3-05-70_sent_473']",0.5145631067961165,0.0,0.20296479645139054,0.20296479645139054,0.2255039307220361
+gemma3+tfidf,How do I start a fire without matches?,page,tfidf,gemma3,none,"Right, let’s get this fire going. Look, the most important thing is positioning. You *always* want to build your fire upwind – that’s where the breeze is coming from. This keeps the flame alive and prevents it from being smothered. 
+
+Now, you need to build your layers. Start with a small, fluffy tinder – think dry grass, birch bark, anything that catches a spark easily. Then, gradually add your kindling – small twigs, increasing in size. Finally, build up to your fuel wood. 
+
+Don’t just throw it all together. A good fire is about layering, feeding it slowly, and keeping it protected from the wind. It’s about patience and understanding how a flame needs to grow. Now, let’s get to work.",6.847946643829346,"[0.20722747586170234, 0.19917828974152296, 0.18442502517074308]",0.19694359692465613,"['FM3-05-70_page_111', 'FM21-76_page_63', 'FM3-05-70_page_104']",0.5,0.0,0.19694359692465613,0.19694359692465613,0.20722747586170234
+gemma3+tfidf,How do I start a fire without matches?,fixed_size,tfidf,gemma3,none,"Right, let’s get a fire going, no matter what. Look, a reliable fire is absolutely critical in a survival situation. 
+
+The key is building a solid, self-feeding fire. I’d recommend building a small pyramid of logs, each layer smaller than the one beneath it, angled right across from each other. Start a small starter fire on top, and as it burns, it’ll ignite the lower layers. 
+
+You need to find a way to get that initial heat. Charcoal is your friend – it’ll keep the fire going longer. If you’ve got a modern igniter, fantastic, keep it waterproof. But if not, focus on building that fire properly, and you’ll be alright. Always purify your water – 45 minutes is the minimum.",6.8685622215271,"[0.26596178028110073, 0.18264288434965278, 0.17139884698762511]",0.20666783720612622,"['FM3-05-70_fixed_179', 'FM21-76_fixed_154', 'FM21-76_fixed_146']",0.5652173913043478,0.0,0.20666783720612622,0.20666783720612622,0.26596178028110073
+gemma3+tfidf,How do I start a fire without matches?,sentence,tfidf,gemma3,none,"Right, let’s get a fire going, no matter what. If you’re without matches, you need to focus on creating that initial spark. 
+
+First, find dry tinder – things like birch bark, dry grass, or even shredded inner bark. Build a small nest and place it upwind of where you want the fire to burn. 
+
+Now, look for anything that can catch a spark – a plastic spoon, a visor housing, anything that burns readily. Use a knife or sharp rock to create friction – this is how you’ll generate that initial heat. 
+
+It's not easy, but with persistence and a little ingenuity, you can get a fire going. Don’t give up!",6.246779441833496,"[0.2953419012216919, 0.252736322636872, 0.14659160224829698]",0.23155660870228698,"['FM21-76_sent_143', 'FM3-05-70_sent_195', 'FM3-05-70_sent_470']",0.4019607843137255,0.0,0.23155660870228698,0.23155660870228698,0.2953419012216919
+gemma3+tfidf,What plants are safe to eat in a survival situation?,page,tfidf,gemma3,none,"Right, let's talk about food – specifically, plants. Look, the biggest thing to understand is there’s no simple answer. You absolutely *must* be cautious. 
+
+Don’t rely on anyone telling you what’s safe. Your best bet is to stick with what you already know – familiar edible plants. If you can find something you recognize, that’s a fantastic start. 
+
+Now, when it comes to anything new, boiling is your first line of defense. It’ll remove many toxins, but it’s not a guarantee. And crucially, avoid anything red. Seriously, steer clear of red plants. 
+
+Knowledge is your strongest tool here. Learn what grows in your area, and always err on the side of caution. Your life depends on it.",6.76122522354126,"[0.2676884100808709, 0.20841533497310064, 0.20834345079535618]",0.22814906528310927,"['FM21-76_page_99', 'FM3-05-70_page_175', 'FM3-05-70_page_157']",0.5964912280701754,0.0,0.22814906528310927,0.22814906528310921,0.2676884100808709
+gemma3+tfidf,What plants are safe to eat in a survival situation?,fixed_size,tfidf,gemma3,none,"Right, let’s talk about finding food in a tough spot. The biggest mistake people make is assuming ‘if an animal eats it, it’s safe.’ That’s simply not true. Animals have different digestive systems than us. 
+
+Now, plants *can* be a lifeline, but you need to be incredibly cautious. Don't rely on instinct. 
+
+Generally, stick to familiar plants if you can. If you're unsure, *always* boil the plant in water. Boiling removes many toxins, but it’s not a guaranteed solution. Brightly colored plants – particularly red ones – are best avoided unless you have absolute certainty. 
+
+Focus on what you know, and proceed with extreme caution. Your survival depends on it.",6.462533712387085,"[0.27301118833045274, 0.2579461190326541, 0.24574225352454335]",0.25889985362921675,"['FM21-76_fixed_241', 'FM21-76_fixed_218', 'FM3-05-70_fixed_286']",0.4811320754716981,0.0,0.25889985362921675,0.2588998536292167,0.27301118833045274
+gemma3+tfidf,What plants are safe to eat in a survival situation?,sentence,tfidf,gemma3,none,"Right, let’s talk about plants – they’re absolutely critical in a survival situation. The key here is *knowledge*, plain and simple. You can't just start chomping on greenery. 
+
+Many plants are safe, but only *if* you know what you're doing. Certain plants are edible in specific seasons or stages of growth, but deadly at others. Take poison hemlock – it looks remarkably like wild carrot, and that’s a deadly mistake. 
+
+Always be extremely cautious. Identify plants with absolute certainty before consuming them. Focus on readily available resources like berries and roots, but never assume anything is safe without a positive identification. It’s a matter of life or death, so prioritize careful observation and learning.",6.3879234790802,"[0.24222981386736883, 0.23353961520924174, 0.23024128580412118]",0.23533690496024393,"['FM21-76_sent_210', 'FM3-05-70_sent_281', 'FM3-05-70_sent_315']",0.5272727272727272,0.0,0.23533690496024393,0.23533690496024393,0.24222981386736883
+gemma3+tfidf,How can I signal for rescue?,page,tfidf,gemma3,none,"Right, let’s get you out of this. The first thing you need to do is make yourself visible. You’ve got to be seen, and you need to be heard. 
+
+Now, the most reliable way to do that is with a satellite signal. If you have a transmitter, key it for a full 30 seconds – that’s crucial. It's a long shot, but it’s a powerful one. 
+
+Alongside that, use a whistle. A consistent, loud blast – 19-35 is the frequency – will carry much further than you think. 
+
+Don't just stand there and wait. Create a visual signal too, a large geometric pattern on the ground. Get creative, make it big, make it obvious. 
+
+Keep signaling, keep moving, and keep your hope up. That’s how you get found.",7.444206953048706,"[0.18500110861657956, 0.16619395759472216, 0.1427078654988996]",0.16463431057006708,"['FM3-05-70_page_258', 'FM3-05-70_page_328', 'FM21-76_page_200']",0.6949152542372882,0.0,0.16463431057006708,0.1646343105700671,0.18500110861657956
+gemma3+tfidf,How can I signal for rescue?,fixed_size,tfidf,gemma3,none,"Right, let's get you out of this. The key here is to make yourself *seen*. 
+
+First, if you’re in a situation with seaweed, don’t thrash about – crawl over the top. Now, when a rescue craft appears, you need to maximize your visibility. Bunch up with any other survivors, it’s easier for them to spot you. 
+
+Raise anything reflective – an oar, a piece of metal – as high as you can. And don't forget the radio. Only use it when you know there’s a chance of aircraft overhead. 
+
+Keep your eyes peeled, stay calm, and make yourself a beacon. That's how we get through these situations.",6.203227519989014,"[0.19055226758077448, 0.18598092024444665, 0.1500184623101415]",0.17551721671178755,"['FM21-76_fixed_447', 'FM21-76_fixed_403', 'FM3-05-70_fixed_452']",0.58,0.0,0.17551721671178755,0.17551721671178755,0.19055226758077448
+gemma3+tfidf,How can I signal for rescue?,sentence,tfidf,gemma3,none,"Right, let’s get you out of this situation. Signaling for rescue is absolutely critical, and it’s about maximizing every opportunity. 
+
+First, make yourself visible. Raise any reflective material – an oar, a piece of foil, anything – as high as you can. It’s about catching the light and drawing attention. 
+
+If you have a flag, use it! Get it up, let it wave. 
+
+And don't forget the radio. Familiarize yourself with the operating instructions, and only use it when you believe there’s a good chance of contact – when you hear or see aircraft. 
+
+Keep your spirits up, and keep signaling. That's what matters.",6.1202521324157715,"[0.22407801866670252, 0.17294369799766557, 0.16668456096496673]",0.1879020925431116,"['FM3-05-70_sent_562', 'FM3-05-70_sent_180', 'FM3-05-70_sent_502']",0.5918367346938775,0.0,0.1879020925431116,0.1879020925431116,0.22407801866670252
+gemma3+tfidf,What should I do if I get lost in the wilderness?,page,tfidf,gemma3,none,"(Adjusts my pack, takes a deep breath)
+
+Right, getting lost – it’s a primal fear, but it’s not a sentence. The first thing you do, and this is absolutely critical, is to stop. Panic burns energy, clouds your judgment. 
+
+Now, observe. Really *look* at your surroundings. How are the locals living? What are they eating? Where are they finding water? Mimic their routines, their methods. It’s about understanding the landscape, understanding the rhythm of life here. 
+
+Don't waste energy trying to retrace your steps immediately. Focus on securing the basics: shelter, water, and a signal.  Remember, survival isn’t about brute force, it’s about intelligent adaptation.  Keep calm, observe, and act.",6.930067539215088,"[0.11261521815622928, 0.10980485677691404, 0.0990303822086284]",0.10715015238059057,"['FM3-05-70_page_13', 'FM21-76_page_5', 'FM3-05-70_page_10']",0.5333333333333333,0.0,0.10715015238059057,0.10715015238059057,0.11261521815622928
+gemma3+tfidf,What should I do if I get lost in the wilderness?,fixed_size,tfidf,gemma3,none,"Right, let’s get you out of this. First, stop. Panic is your enemy. Take a deep breath and assess. You need to understand the land around you – *really* understand it. 
+
+Listen. The wilderness speaks in rhythms. Animal movements, bird calls, insect sounds – they all tell a story. Figure out the patterns. What’s the tempo of this place? 
+
+Then, you need to prioritize. You’re a creature of comfort, I get it. But survival demands a shift. You need to *value* life above all else. 
+
+Observe the animals. They're instinctively seeking food, water, and shelter. Mimic their behaviour. It’s a key to your survival. Don’t just sit there, *do*.",6.712092876434326,"[0.16740297284481895, 0.1292556563109062, 0.12890479101105845]",0.14185447338892787,"['FM3-05-70_fixed_1', 'FM3-05-70_fixed_6', 'FM3-05-70_fixed_7']",0.5436893203883495,0.0,0.14185447338892787,0.14185447338892787,0.16740297284481895
+gemma3+tfidf,What should I do if I get lost in the wilderness?,sentence,tfidf,gemma3,none,"Right, let’s get you sorted. Getting lost is a terrifying situation, but panic is your enemy. The first thing is, accept it. Don’t dwell on *how* you got lost, focus on *what* you’re going to do. 
+
+You need to establish a routine. Water is absolutely critical – find a source and ration it carefully. Then, build a shelter, something simple to protect you from the elements. 
+
+Check yourself thoroughly. Any cuts, scrapes – treat them immediately. Don’t ignore them. 
+
+Observe your surroundings. What animals are you seeing? They’re giving you clues about water sources and potential food. 
+
+Most importantly, maintain a positive mental attitude. Stubbornness, a refusal to give in to the challenges, is what’s going to see you through. Now, let's get moving.",7.395839214324951,"[0.16000603789290543, 0.12440703801894569, 0.11933129710615091]",0.13458145767266735,"['FM21-76_sent_7', 'FM3-05-70_sent_2', 'FM3-05-70_sent_9']",0.5254237288135594,0.0,0.13458145767266735,0.13458145767266735,0.16000603789290543
+gemma3+tfidf,How do I treat a broken bone in the wilderness?,page,tfidf,gemma3,none,"Right, let’s talk about dealing with a broken bone out here. It’s a serious situation, and quick, decisive action is key. 
+
+First, assess the injury. You've got two types – a ‘closed’ fracture where the bone is broken but not protruding, and an ‘open’ fracture where it’s broken and exposed through the skin. An open fracture needs immediate attention; you'll need to treat it like any severe wound – cleaning it thoroughly with whatever clean water you can find, and covering it to prevent infection. 
+
+For a closed fracture, stabilization is paramount. Splint the limb firmly, using branches, bark, or anything you can find to immobilize the area. Then, focus on keeping the injured person warm and comfortable. Remember, slow and steady wins the race when it comes to serious injuries.",7.205979108810425,"[0.19517880879865124, 0.17274779635378054, 0.16053958495210896]",0.1761553967015136,"['FM21-76_page_27', 'FM21-76_page_123', 'FM3-05-70_page_48']",0.5748031496062992,0.0,0.1761553967015136,0.1761553967015136,0.19517880879865124
+gemma3+tfidf,How do I treat a broken bone in the wilderness?,fixed_size,tfidf,gemma3,none,"Right, let’s get this sorted. A broken bone in the wild – it’s a serious situation, but we can manage it. 
+
+First, assess the injury. Is it an open fracture – bone poking through the skin? If so, that’s critical. We need to stop the bleeding immediately with pressure and a makeshift bandage. 
+
+Next, stabilization is key. We’re going to build a splint – using branches, bark, anything we can find – to immobilize the limb. Wrap it tightly, but don't cut off circulation. 
+
+If it’s a closed fracture, we’ll still build a splint, focusing on support. 
+
+Keep the injured area elevated, lower than your head, to reduce swelling. And most importantly, get it out of the weather. 
+
+Now, let's get moving and get you safe.",7.537458658218384,"[0.17085741475540206, 0.16610016791975318, 0.15517780674298048]",0.16404512980604524,"['FM21-76_fixed_282', 'FM3-05-70_fixed_327', 'FM21-76_fixed_71']",0.4661016949152542,0.0,0.16404512980604524,0.16404512980604524,0.17085741475540206
+gemma3+tfidf,How do I treat a broken bone in the wilderness?,sentence,tfidf,gemma3,none,"Right, let’s get this sorted. If you’ve got a suspected broken bone, your immediate priority is stabilization. Don't try to move the injured person unless absolutely necessary. 
+
+First, assess the situation – is the injury obvious? If so, gently splint the limb *above and below* the suspected fracture. Use branches, bark, anything you can find to create a rigid support. Wrap it securely with cloth, bark strips, or even your clothing. 
+
+Keep the injured area elevated, if possible, to reduce swelling. And most importantly, stay calm and assess the situation. You need to be methodical. 
+
+Now, let’s get you out of this situation.",6.057831287384033,"[0.23098245606568582, 0.21564894784246316, 0.16392617387039307]",0.20351919259284734,"['FM3-05-70_sent_359', 'FM21-76_sent_266', 'FM21-76_sent_63']",0.36633663366336633,0.0,0.20351919259284734,0.20351919259284734,0.23098245606568582
+gemma3+tfidf,What are the signs of hypothermia and how do I treat it?,page,tfidf,gemma3,none,"Right, let’s talk about staying alive when the cold starts to bite. Hypothermia is a serious threat, and you need to recognize it fast. The first sign is often confusion, disorientation – you might not realize you’re struggling. Shivering is a classic, but don’t rely on that alone, it can mask other symptoms. You’ll likely have slurred speech, stiff muscles, and a dangerously low body temperature. 
+
+The key is immediate action. Get the person into a sheltered spot, away from wind. Remove any wet clothing and wrap them in anything warm you have – blankets, dry clothes, even your own body heat if necessary. A warm, moist compress directly on the wound, changed frequently, can help. And crucially, keep them hydrated – water is vital to maintain your core temperature. Don’t delay, every minute counts.",7.332815885543823,"[0.12143310484084699, 0.11956181151227466, 0.08756119583142916]",0.10951870406151694,"['FM3-05-70_page_236', 'FM3-05-70_page_13', 'FM21-76_page_34']",0.5736434108527132,0.0,0.10951870406151694,0.10951870406151694,0.12143310484084699
+gemma3+tfidf,What are the signs of hypothermia and how do I treat it?,fixed_size,tfidf,gemma3,none,"Right, let's talk about hypothermia – it’s a killer if you’re not careful. The first thing to recognize is the signs: shivering, confusion, slurred speech, drowsiness, and a visible lack of coordination. Your judgment will be going, and you'll be losing your ability to react.
+
+Now, treatment is all about rapid heat loss reduction. Get the person into a sheltered area, away from wind. Next, remove any wet clothing – moisture is a huge factor. Then, focus on cooling the core. You can try dipping them in a cool stream if possible, or use cool water compresses, especially on the head, neck, armpits, and groin. 
+
+Don't underestimate the importance of keeping them calm and hydrated. A little movement can actually increase heat loss, so try to keep them still. It's a race against time, so act decisively.",7.6562981605529785,"[0.13343742234012756, 0.12437344794524527, 0.11624276627279498]",0.12468454551938928,"['FM3-05-70_fixed_7', 'FM21-76_fixed_7', 'FM21-76_fixed_100']",0.47692307692307695,0.0,0.12468454551938928,0.12468454551938928,0.13343742234012756
+gemma3+tfidf,What are the signs of hypothermia and how do I treat it?,sentence,tfidf,gemma3,none,"Right, let’s talk about hypothermia – a serious threat in any survival situation. It’s about your body losing heat faster than it can replace it. You need to recognize the signs quickly. 
+
+Firstly, you’ll notice shivering – that’s your body desperately trying to generate heat. Confusion, slurred speech, and drowsiness are also key indicators. You might also see loss of coordination and a dull complexion. 
+
+The immediate treatment is simple: Get out of the cold! Build a shelter, dry off, and insulate yourself. Layer clothing, share body heat with a buddy if possible, and start warming up with any available heat source. Don't delay – rapid cooling can quickly lead to a fatal outcome. Stay aware, stay calm, and act decisively.",6.680875301361084,"[0.13119046495966102, 0.11908766520902081, 0.11614283338315258]",0.1221403211839448,"['FM3-05-70_sent_78', 'FM21-76_sent_7', 'FM3-05-70_sent_445']",0.4298245614035088,0.0,0.1221403211839448,0.1221403211839448,0.13119046495966102
+mistral+tfidf,How do I find water in the desert?,page,tfidf,mistral,none,"In the arid desert environment, finding water is crucial for survival. One resource you might encounter is the Pincushion cactus, a type of succulent plant found across much of the western United States and Central America. Although it appears prickly, these cacti can be a valuable source of hydration. Be cautious when approaching them as their spines may cause discomfort.
+
+However, relying solely on cactus water might not sustain you for long periods. To ensure adequate hydration, look for rainwater catchment areas such as natural basins or man-made containers like old barrels or abandoned vehicles. Also, be aware of the mirage effect that can distort distant objects and make it challenging to estimate ranges accurately. To avoid heatstroke, seek high ground if possible, where there's less direct sunlight and cooler temperatures. Lastly, protect yourself from insects and snakes by wearing long sleeves, pants",15.346444606781006,"[0.2890160701707482, 0.19247509829289997, 0.17091055109888145]",0.21746723985417651,"['FM3-05-70_page_454', 'FM3-05-70_page_218', 'FM3-05-70_page_213']",0.5845070422535211,0.0,0.21746723985417651,0.21746723985417651,0.2890160701707482
+mistral+tfidf,How do I find water in the desert?,fixed_size,tfidf,mistral,none,"In a desert survival situation, locating water is crucial due to the scant rainfall. Firstly, conserve the water you have as much as possible. Remember, high temperatures can lead to dehydration quickly.
+
+Secondly, observe and memorize the terrain carefully. Look for trails that converge, as they often lead to water sources. Signs like campsites, fire pits, animal droppings, or trampled ground may indicate trails.
+
+Lastly, keep an eye out for birds, particularly at dawn and sunset. Birds often circle over water holes, with their fast, low-flying movements signaling a potential water source nearby. Be patient and vigilant, as finding water in the desert can mean the difference between life and death.",9.059070587158203,"[0.1824746422684207, 0.18231191267656727, 0.1713758227822048]",0.17872079257573092,"['FM21-76_fixed_305', 'FM21-76_fixed_312', 'FM3-05-70_fixed_150']",0.6363636363636364,0.0,0.17872079257573092,0.17872079257573092,0.1824746422684207
+mistral+tfidf,How do I find water in the desert?,sentence,tfidf,mistral,none,"In the arid landscape of a desert, finding water can be crucial for survival. Here are some tips:
+
+1. Dig a hole near plants: Desert plants tend to have deep roots that may reach underground water sources. Try digging a small pit around plants like cacti or shrubs.
+
+2. Follow animal tracks: Animals often know where the water is, so following their footprints could lead you to a water source.
+
+3. Look for dew: Early morning dew can provide some hydration. Use clothing or containers to collect it.
+
+4. Collect rainwater: If it rains during your journey, catch and store the rainwater in any available container. Boil it before drinking to ensure safety.
+
+5. Melting snow: In colder desert regions, snow can be a potential water source. Gather some snow and melt it using a fire or sunlight.
+
+6. Be cautious with",10.718284368515015,"[0.22733603690592116, 0.20078346259946706, 0.20021778999377]",0.20944576316638605,"['FM21-76_sent_302', 'FM3-05-70_sent_403', 'FM3-05-70_sent_829']",0.2923076923076923,0.0,0.20944576316638605,0.20944576316638608,0.22733603690592116
+mistral+tfidf,What should I do if I encounter a venomous snake?,page,tfidf,mistral,none,"Encountering a venomous snake can be a dangerous situation. Here are some steps you should follow:
+1. Identify the Snake: Try to identify the type of snake, as different species have varying levels of venom potency and treatment methods. Refer to resources like field guides or apps for help in identifying snakes.
+2. Keep Calm: Do not panic or make sudden movements that might provoke the snake.
+3. Stay Away: Maintain a safe distance from the snake, as their venom can be deadly if it comes into contact with your skin.
+4. Slowly Back Away: Gradually back away from the area where you found the snake. Do not run, as this could trigger the snake to chase after you.
+5. Seek Medical Attention: If you are bitten by a venomous snake, seek immediate medical attention. Do not try to suck out the venom or apply a tourn",10.756585121154785,"[0.24533648697219507, 0.21403577424728537, 0.1743960358932278]",0.2112560990375694,"['FM3-05-70_page_532', 'FM3-05-70_page_587', 'FM3-05-70_page_623']",0.44525547445255476,0.0,0.2112560990375694,0.2112560990375694,0.24533648697219507
+mistral+tfidf,What should I do if I encounter a venomous snake?,fixed_size,tfidf,mistral,none,"Encountering a venomous snake can be a dangerous situation, but with the right knowledge and quick action, you can increase your chances of survival. Here's what to do:
+
+1. Identify the snake: Try to identify the type of venomous snake you're dealing with. Some common signs include a triangular head, pit-like organs on each side of the head (used for heat sensing), and distinctive patterns or colors on the body.
+
+2. Do not provoke it: Avoid making sudden movements or loud noises that could agitate the snake and cause it to strike. Stay calm and speak softly to the snake if necessary.
+
+3. Keep a safe distance: Maintain a minimum of 10 feet (3 meters) between you and the snake, if possible. This will help prevent accidental contact or provocation.
+
+4. Call for help: If you're not familiar with first aid",11.17869257926941,"[0.30562994797971665, 0.19870754923677225, 0.16287266418489588]",0.22240338713379493,"['FM3-05-70_fixed_834', 'FM3-05-70_fixed_872', 'FM3-05-70_fixed_890']",0.4552238805970149,0.0,0.22240338713379493,0.22240338713379493,0.30562994797971665
+mistral+tfidf,What should I do if I encounter a venomous snake?,sentence,tfidf,mistral,none,"Encountering a venomous snake can be quite alarming, but it's important to stay calm. Firstly, identify the snake if possible. If you're unsure, avoid getting too close and maintain a safe distance. Never try to catch or handle a venomous snake. If you or someone else gets bitten, seek immediate medical attention. While waiting for help, keep the affected area below heart level to slow down the venom spread. Additionally, clean the wound with water if possible, but do not suck out the venom as it can spread infection. Keep the victim as still and calm as possible until professional help arrives.",7.683016061782837,"[0.287493009971984, 0.24609035069167068, 0.19128482947075653]",0.24162273004480372,"['FM3-05-70_sent_902', 'FM3-05-70_sent_942', 'FM3-05-70_sent_961']",0.37,0.0,0.24162273004480372,0.24162273004480372,0.287493009971984
+mistral+tfidf,How can I build a shelter in cold weather?,page,tfidf,mistral,none,"In cold weather, building a suitable shelter is crucial for your survival. The type of shelter depends on the resources available at hand and the environment you're in. Here are some basic shelter ideas:
+
+1. Snow cave: Dig a pit in the snow, cover the entrance with snow blocks, and create a breathing hole. This provides insulation from the cold and wind.
+
+2. Quinzhee (snow igloo): Stack snow into a mound, then hollow it out to create a dome-shaped shelter. The compacted snow walls provide excellent insulation.
+
+3. Lean-to: Find a large tree or rock for support, and lean branches against it to form a roof that protects from wind and snow. Fill the opening with leaves or snow for extra warmth.
+
+4. Tent: If you have a tent, pitch it on a level surface away from trees to minimize the risk of falling branches. Make sure",11.377502918243408,"[0.2936043132572203, 0.27688873660995134, 0.19852178657507874]",0.2563382788140835,"['FM21-76_page_146', 'FM3-05-70_page_229', 'FM3-05-70_page_241']",0.5401459854014599,0.0,0.2563382788140835,0.2563382788140835,0.2936043132572203
+mistral+tfidf,How can I build a shelter in cold weather?,fixed_size,tfidf,mistral,none,"Building a shelter in cold weather is crucial to staying warm and surviving. Here's a simple method using materials readily available:
+
+1. Find a protected location, such as a hollow or windbreak, to minimize exposure to the elements.
+2. Dig a snow pit if possible. This provides insulation and reduces wind chill.
+3. Gather dead branches, grasses, and leaves for insulation. If snow is abundant, pack it tightly around your shelter.
+4. Create a framework using poles or large branches. Cover the frame with your insulating materials.
+5. Use body heat to compact the snow or insulating materials for a snug fit.
+6. Keep an opening for ventilation to prevent carbon monoxide buildup from any fires.
+7. Finally, gather firewood and start a fire inside the shelter to keep warm. Remember to be cautious with open flames in a confined space.",11.037708282470703,"[0.29584013961502587, 0.29004180650177425, 0.2446776672831345]",0.2768532044666449,"['FM21-76_fixed_343', 'FM3-05-70_fixed_390', 'FM3-05-70_fixed_389']",0.296,0.0,0.2768532044666449,0.2768532044666449,0.29584013961502587
+mistral+tfidf,How can I build a shelter in cold weather?,sentence,tfidf,mistral,none,"In cold weather, the type of shelter you construct will depend on your environment and the equipment at hand. If you're in a wooded area, you can use branches, leaves, and logs to create a sturdy shelter. In open country or barren areas, snow can be used to build simple igloos or quinzees.
+
+Remember, the key is insulation and wind protection. A well-built shelter can help retain body heat and protect you from cold winds. Also, be mindful of wet vs dry cold weather environments as they may require different approaches in terms of materials used for construction.
+
+Lastly, always keep a lookout for insects and take necessary precautions as needed (refer to Chapter 11 for information on insect bites). If you have any medical supplies with you, use them accordingly for treatment (Chapter 4).",10.445121765136719,"[0.25082508986904584, 0.22508260267692862, 0.1983323672226689]",0.22474668658954777,"['FM3-05-70_sent_432', 'FM21-76_sent_325', 'FM21-76_sent_345']",0.6287878787878788,0.0,0.22474668658954777,0.22474668658954777,0.25082508986904584
+mistral+tfidf,What are the best methods to purify water for drinking?,page,tfidf,mistral,none,"In various survival situations, there are several ways to purify water for drinking. Here are some methods based on the information from US Army Field Manuals:
+
+1. Boiling: One of the simplest and most effective methods is boiling. Bring the water to a rolling boil for at least one minute to kill harmful microorganisms.
+
+2. Filtration: Create a filter using layers of materials such as sand, crushed rock, charcoal, or cloth inside a container like bamboo, hollow log, or clothing (Figure 6-9). Let the water filter through slowly for a more palatable result.
+
+3. Chemical purification tablets: In some cases, chemical purification tablets can be used to kill harmful bacteria, viruses, and protozoa in your water source. Always follow the instructions on the packaging when using these tablets.
+
+4. Solar stills: When you have plenty of time and access",11.234052419662476,"[0.19958463866090365, 0.19786904061246502, 0.1209356137572684]",0.17279643101021236,"['FM3-05-70_page_100', 'FM21-76_page_61', 'FM21-76_page_62']",0.6076923076923076,0.0,0.17279643101021236,0.17279643101021236,0.19958463866090365
+mistral+tfidf,What are the best methods to purify water for drinking?,fixed_size,tfidf,mistral,none,"In situations where you need to purify water, there are several effective methods. One method is by creating a still, which works particularly well with saltwater. You can fashion this using plastic, soil, and polluted water. The water will condense and drain into a container for drinking (Referencing context from page 60).
+
+Another approach involves making a filtering system using sand, crushed rock, charcoal, or cloth placed in a natural container like bamboo, hollow log, or clothing (Context from Figure 6-10). This method helps clear the water and make it more palatable. However, remember that these procedures only make the water safer to drink; you'll still need to purify it further by adding charcoal to remove any lingering odor (Context from 6-37).
+
+Lastly, rainwater collected in clean containers or plants is usually safe for drinking, but it's best to",11.248001337051392,"[0.23186661349094168, 0.22368427727354914, 0.17712591945346745]",0.21089227007265277,"['FM21-76_fixed_143', 'FM3-05-70_fixed_163', 'FM3-05-70_fixed_169']",0.7205882352941176,0.0,0.21089227007265277,0.21089227007265277,0.23186661349094168
+mistral+tfidf,What are the best methods to purify water for drinking?,sentence,tfidf,mistral,none,"In various survival situations, it's crucial to purify water before consuming. Here are three effective methods I'd recommend:
+
+1. Boiling: Bring the water to a rolling boil for at least 1 minute and let it cool before drinking. This method eliminates harmful bacteria, parasites, and viruses.
+
+2. Chemical purification: Use iodine or chlorine tablets as per their instructions. Alternatively, add 5 drops of a 2% tincture of iodine to a canteen of water and let it sit for at least 30 minutes before drinking. Remember, do not use iodine if you have an iodine allergy or are pregnant.
+
+3. Filtration: If available, use a portable water filter to remove sediments and microorganisms from the water. This method is particularly useful when dealing with cloudy or muddy sources.",10.849175691604614,"[0.2255039307220361, 0.21708213037595445, 0.1663083282561811]",0.20296479645139054,"['FM3-05-70_sent_173', 'FM21-76_sent_132', 'FM3-05-70_sent_473']",0.5431034482758621,0.0,0.20296479645139054,0.20296479645139054,0.2255039307220361
+mistral+tfidf,How do I start a fire without matches?,page,tfidf,mistral,none,"In various survival situations, starting a fire is crucial for warmth, cooking, and purifying water. If you don't have matches, there are alternative methods. One effective approach is by using a fireboard and a spindle. The fireboard, made of hardwood with a softer wood or dryer bark attached, and the spindle, usually a straight stick about an inch in diameter, are rubbed together to create friction that ignites the ember on the fireboard.
+
+Once you have an ember, transfer it gently to your tinder (such as dried moss, grass, or wood shavings), and carefully blow on it until it grows into a flame. Always light your fire from the upwind side, ensuring proper airflow for sustained burning. Keep in mind that the tinder, kindling, and fuel should be laid out so the fire burns as long as you need it.",10.840502500534058,"[0.20722747586170234, 0.19917828974152296, 0.18442502517074308]",0.19694359692465613,"['FM3-05-70_page_111', 'FM21-76_page_63', 'FM3-05-70_page_104']",0.5970149253731343,0.0,0.19694359692465613,0.19694359692465613,0.20722747586170234
+mistral+tfidf,How do I start a fire without matches?,fixed_size,tfidf,mistral,none,"In case you don't have matches, there are still effective ways to start a fire. One method is called the log cabin fire. Stack four layers of logs, with each layer smaller than and at right angles to the one below it. Light a starter fire on top of this pyramid. As the starter fire burns, it will ignite the logs beneath, giving you a downward-burning fire that requires no attention during the night.
+
+Another way is by using primitive igniters. You can create a fireboard and spindle, or use a bow drill set to generate friction and create a spark to ignite your tinder. Additionally, you can find flint in rocks and strike it against steel to produce sparks for starting a fire. Always prepare a good supply of dry tinder like dried grasses or bark for easier ignition.",10.372542381286621,"[0.26596178028110073, 0.18264288434965278, 0.17139884698762511]",0.20666783720612622,"['FM3-05-70_fixed_179', 'FM21-76_fixed_154', 'FM21-76_fixed_146']",0.6616541353383458,0.0,0.20666783720612622,0.20666783720612622,0.26596178028110073
+mistral+tfidf,How do I start a fire without matches?,sentence,tfidf,mistral,none,"In the absence of matches, you can use various primitive ignition methods. One option is utilizing a ferrocerium rod and a steel striker to create sparks which will ignite your tinder. Alternatively, you could find flint rocks and strike them against hard surfaces to produce sparks as well. In cold weather regions, you can also use materials like plastic MRE spoons or helmet visors to extend the burning time of your fire, even without matches. Always remember to start your fire from the upwind side and carefully arrange your tinder for optimal ignition.",6.992312431335449,"[0.2953419012216919, 0.252736322636872, 0.14659160224829698]",0.23155660870228698,"['FM21-76_sent_143', 'FM3-05-70_sent_195', 'FM3-05-70_sent_470']",0.5824175824175825,0.0,0.23155660870228698,0.23155660870228698,0.2953419012216919
+mistral+tfidf,What plants are safe to eat in a survival situation?,page,tfidf,mistral,none,"In a survival scenario, it's essential to be cautious when consuming wild plants. While there are many edible plants in nature, many are poisonous and can be dangerous if mistakenly ingested. To ensure safety, learn about local flora or familiarize yourself with common edible plants like dandelions, plantains, and certain berries (like strawberries and raspberries).
+
+However, always exercise caution when consuming wild plants as even some edible ones can cause digestive issues if eaten raw or in large quantities. Boiling plants for several minutes can help remove harmful toxins but remember that boiling does not guarantee the plant is safe to eat. Always double-check your identification and consult a field guide or local expert before consuming any wild plant in a survival situation.",9.564179182052612,"[0.2676884100808709, 0.20841533497310064, 0.20834345079535618]",0.22814906528310927,"['FM21-76_page_99', 'FM3-05-70_page_175', 'FM3-05-70_page_157']",0.6446280991735537,0.0,0.22814906528310927,0.22814906528310921,0.2676884100808709
+mistral+tfidf,What plants are safe to eat in a survival situation?,fixed_size,tfidf,mistral,none,"In a survival situation, it's crucial to be cautious about what plants you consume. While some animals can eat poisonous plants without harm, humans may not have the same tolerance. To ensure safety, it's essential to learn about the local flora beforehand. Boiling a plant can help remove some poisons, but it doesn't eliminate all risks. Additionally, be aware that red-colored plants are not always poisonous. A general rule for identifying safe plants does not exist, so learning to recognize specific edible ones is vital. Always exercise caution and consider consulting local experts or resources when possible.",7.353246212005615,"[0.27301118833045274, 0.2579461190326541, 0.24574225352454335]",0.25889985362921675,"['FM21-76_fixed_241', 'FM21-76_fixed_218', 'FM3-05-70_fixed_286']",0.5894736842105263,0.0,0.25889985362921675,0.2588998536292167,0.27301118833045274
+mistral+tfidf,What plants are safe to eat in a survival situation?,sentence,tfidf,mistral,none,"In a survival situation, many plants can be a valuable source of food. However, it's crucial to learn as much about them as possible due to the presence of poisonous look-alikes. Some edible plants include wild carrot (but beware of poison hemlock which resembles it), and pokeweed leaves, but only when they are in certain seasons or stages of growth. Always refer to illustrations for identification, often found in survival manuals' appendices. Remember, learning about local flora can significantly increase your chances of survival.",6.811242580413818,"[0.24222981386736883, 0.23353961520924174, 0.23024128580412118]",0.23533690496024393,"['FM21-76_sent_210', 'FM3-05-70_sent_281', 'FM3-05-70_sent_315']",0.6987951807228916,0.0,0.23533690496024393,0.23533690496024393,0.24222981386736883
+mistral+tfidf,How can I signal for rescue?,page,tfidf,mistral,none,"To signal for rescue in a survival situation, there are several methods you can use. Firstly, activate the Search and Rescue Satellite-Aided Tracking (SARSAT) system by keying your transmitter for at least 30 seconds. Whistles are also effective for close-up signaling and have been heard up to a mile away in some documented cases.
+
+Secondly, use geometric patterns like triangles or X's as man-made signals to grab the attention of rescuers. These patterns can be made using natural resources like rocks, branches, or even your own clothing if necessary. Always remember, making yourself visible and audible will increase your chances of being found. Stay safe!",8.682539701461792,"[0.18500110861657956, 0.16619395759472216, 0.1427078654988996]",0.16463431057006708,"['FM3-05-70_page_258', 'FM3-05-70_page_328', 'FM21-76_page_200']",0.7238095238095238,0.0,0.16463431057006708,0.1646343105700671,0.18500110861657956
+mistral+tfidf,How can I signal for rescue?,fixed_size,tfidf,mistral,none,"To increase your chances of being spotted by a potential rescuer, follow these steps:
+
+1. Arrange your raft or improvised floatation devices about 7.5 meters apart. This makes it easier for an aircrew to spot you. If you hear or see an aircraft, draw them closer together for better visibility.
+
+2. Use all available visual signaling devices like a flag or reflective material on an oar, raised as high as possible. This will help attract attention.
+
+3. Activate your emergency radio and follow the operating instructions provided. Use the emergency transceiver only when friendly aircraft are likely to be in the area.",7.976207256317139,"[0.19055226758077448, 0.18598092024444665, 0.1500184623101415]",0.17551721671178755,"['FM21-76_fixed_447', 'FM21-76_fixed_403', 'FM3-05-70_fixed_452']",0.7604166666666666,0.0,0.17551721671178755,0.17551721671178755,0.19055226758077448
+mistral+tfidf,How can I signal for rescue?,sentence,tfidf,mistral,none,"To increase your chances of being rescued, use all available visual or electronic signaling devices. Raise a flag or reflective material on an oar as high as possible to attract attention. If you have an emergency radio, operate it following the instructions provided. Use the transceiver only when friendly aircraft are likely to be in the area. Additionally, clear any lines or gear that could entangle during rescue, secure all loose items, and take down canopies or sails for a safer pickup. And if you have one, put on your helmet before the rescue operation.",6.868576526641846,"[0.22407801866670252, 0.17294369799766557, 0.16668456096496673]",0.1879020925431116,"['FM3-05-70_sent_562', 'FM3-05-70_sent_180', 'FM3-05-70_sent_502']",0.8602150537634409,0.0,0.1879020925431116,0.1879020925431116,0.22407801866670252
+mistral+tfidf,What should I do if I get lost in the wilderness?,page,tfidf,mistral,none,"If you find yourself lost in the wilderness, it's crucial to stay calm and follow the principles outlined by the SURVIVAL acronym:
+
+1. **S** - Size up the situation. Take a deep breath and assess your surroundings, your injuries, and resources at hand.
+2. **U** - Utilize a universal means of signaling (3 fires in a triangle, smoke, or mirrors for reflection). This will help rescuers locate you.
+3. **R** - Reconnoiter the area. Try to find landmarks, rivers, or trails that can guide you back or lead you to civilization.
+4. **V** - Validate water sources. Only drink water from known safe sources like springs, rain, or melting snow. Boil or purify any other water before consuming it.
+5. **I** - Injury management. Tend to any injuries and dress them properly to",11.202455520629883,"[0.11261521815622928, 0.10980485677691404, 0.0990303822086284]",0.10715015238059057,"['FM3-05-70_page_13', 'FM21-76_page_5', 'FM3-05-70_page_10']",0.5350877192982456,0.0,0.10715015238059057,0.10715015238059057,0.11261521815622928
+mistral+tfidf,What should I do if I get lost in the wilderness?,fixed_size,tfidf,mistral,none,"Firstly, stay calm. Identify your surroundings and notice any patterns or rhythms, such as animal noises, insect sounds, or even enemy traffic. This will help you understand the environment better. Secondly, remember that the will to live is crucial in survival situations. Embrace discomforts and inconveniences as part of the journey. Thirdly, observe local wildlife for clues on food, water, and shelter sources. Lastly, try to find a high ground for visibility or follow rivers downstream as they often lead to civilization. Always remember to stay put if you're injured, but signal for help using fire, smoke, or mirrors if possible.",8.048715591430664,"[0.16740297284481895, 0.1292556563109062, 0.12890479101105845]",0.14185447338892787,"['FM3-05-70_fixed_1', 'FM3-05-70_fixed_6', 'FM3-05-70_fixed_7']",0.5445544554455446,0.0,0.14185447338892787,0.14185447338892787,0.16740297284481895
+mistral+tfidf,What should I do if I get lost in the wilderness?,sentence,tfidf,mistral,none,"If you find yourself lost in the wilderness, the first thing you should do is remain calm and evaluate your surroundings. Look for landmarks or natural features that can help you orient yourself. Use your knowledge of local flora and fauna to guide you, as animals often follow water sources.
+
+Secondly, prioritize your safety. Check yourself for injuries and give yourself first aid if necessary. Be aware of the climate and dress appropriately to prevent hypothermia or dehydration. Drink plenty of water, but be mindful not to over-exert yourself in search of more.
+
+Lastly, stay put if possible. Rescuers are more likely to find you at your last known location rather than venturing too far off the beaten path. Build a shelter for protection from the elements and make yourself visible by using bright clothing or signaling devices. Good luck!",10.3599271774292,"[0.16000603789290543, 0.12440703801894569, 0.11933129710615091]",0.13458145767266735,"['FM21-76_sent_7', 'FM3-05-70_sent_2', 'FM3-05-70_sent_9']",0.4785714285714286,0.0,0.13458145767266735,0.13458145767266735,0.16000603789290543
+mistral+tfidf,How do I treat a broken bone in the wilderness?,page,tfidf,mistral,none,"In case of a broken bone in the wilderness, firstly, immobilize the injured area using a splint made from available materials like sticks or branches to prevent any further damage. For open fractures, clean the wound thoroughly with clean water and cover it with a sterile dressing to prevent infection. If possible, elevate the affected limb above heart level to reduce swelling. In severe cases, you might need to set the bone using improvised methods like applying pressure or traction, but this should be done with extreme caution as it may cause more harm if not performed correctly. Always prioritize stabilizing and immobilizing the fracture before attempting to set it.",7.986485481262207,"[0.19517880879865124, 0.17274779635378054, 0.16053958495210896]",0.1761553967015136,"['FM21-76_page_27', 'FM21-76_page_123', 'FM3-05-70_page_48']",0.5327102803738317,0.0,0.1761553967015136,0.1761553967015136,0.19517880879865124
+mistral+tfidf,How do I treat a broken bone in the wilderness?,fixed_size,tfidf,mistral,none,"In the wilderness, if you suspect a broken bone, it's crucial to immobilize the area as much as possible. First, locate any nearby materials like clothing, branches, or vines to make a splint. Wrap these around the injured limb, ensuring it stays in place and doesn't move.
+
+Next, use additional material such as moss or leaves for padding to minimize discomfort and prevent further injury. Try to find a sheltered spot, with your head lower than your feet to reduce swelling. If you're with someone else, have them reassess the patient regularly and watch for signs of shock.
+
+For open fractures, clean the wound gently with water if possible, but do not try to push any protruding bone back in place. Instead, cover the wound with a sterile dressing or clean cloth and secure it in place with more padding and your makeshift splint. Seek professional medical help as soon",11.09259581565857,"[0.17085741475540206, 0.16610016791975318, 0.15517780674298048]",0.16404512980604524,"['FM21-76_fixed_282', 'FM3-05-70_fixed_327', 'FM21-76_fixed_71']",0.4897959183673469,0.0,0.16404512980604524,0.16404512980604524,0.17085741475540206
+mistral+tfidf,How do I treat a broken bone in the wilderness?,sentence,tfidf,mistral,none,"In case of a broken bone in the wilderness, first, immobilize the affected area using any available material such as clothing, splints, or even sticks. This will help reduce pain and prevent further damage. Next, use padding like moss, leaves, or a piece of your clothing to protect the skin from direct pressure.
+
+If possible, elevate the injured limb above heart level to minimize swelling. Keep the area clean to avoid infection and apply a makeshift sling if necessary for support.
+
+In severe cases where the bone has pierced the skin or there is extreme pain, swelling, or inability to move the limb, it's essential to seek professional medical help as soon as possible. When traveling through rough terrain, prioritize finding shelter and signaling for help while caring for the injury to conserve energy.",10.23795747756958,"[0.23098245606568582, 0.21564894784246316, 0.16392617387039307]",0.20351919259284734,"['FM3-05-70_sent_359', 'FM21-76_sent_266', 'FM21-76_sent_63']",0.37404580152671757,0.0,0.20351919259284734,0.20351919259284734,0.23098245606568582
+mistral+tfidf,What are the signs of hypothermia and how do I treat it?,page,tfidf,mistral,none,"Hypothermia is a dangerous condition that occurs when your body loses heat faster than it can produce, lowering your core temperature below 95°F (35°C). Signs include shivering, exhaustion, confusion, slurred speech, and slow, irregular heartbeat. To treat hypothermia, move the victim to a warm environment, remove wet clothing, wrap them in warm blankets or foil emergency blankets, and gently warm their extremities. Do not give them hot food or drinks, as they can cause the body to lose heat faster. If possible, administer CPR if there are no signs of breathing. Seek immediate medical attention. Always remember, prevention is key - stay dry, dress in layers, and avoid exposure to cold weather for extended periods.",9.608705759048462,"[0.12143310484084699, 0.11956181151227466, 0.08756119583142916]",0.10951870406151694,"['FM3-05-70_page_236', 'FM3-05-70_page_13', 'FM21-76_page_34']",0.6428571428571429,0.0,0.10951870406151694,0.10951870406151694,0.12143310484084699
+mistral+tfidf,What are the signs of hypothermia and how do I treat it?,fixed_size,tfidf,mistral,none,"Hypothermia is a serious condition caused by prolonged exposure to cold temperatures. Signs include shivering, confusion, slurred speech, slow and shallow breathing, weak pulse, and eventually loss of consciousness. To treat hypothermia, first prioritize removing the person from the cold environment and getting them indoors or under shelter if possible. Remove wet clothing and dress them in warm, dry layers. Gently wrap them in a warm blanket, but avoid rubbing their skin as it may increase heat loss.
+
+If a cool stream is available, immerse the victim in it (up to neck level), but be cautious not to shock their system with sudden cold. If no stream is accessible, douse them with urine, water, or apply cool wet compresses to joints, including the neck, armpits, and crotch, ensuring their head is also wet. Cooling methods may cause vomiting and diarrhea,",11.169487476348877,"[0.13343742234012756, 0.12437344794524527, 0.11624276627279498]",0.12468454551938928,"['FM3-05-70_fixed_7', 'FM21-76_fixed_7', 'FM21-76_fixed_100']",0.6058394160583942,0.0,0.12468454551938928,0.12468454551938928,0.13343742234012756
+mistral+tfidf,What are the signs of hypothermia and how do I treat it?,sentence,tfidf,mistral,none,"Hypothermia is a serious condition caused by excessive cold exposure, where your body temperature drops below 95°F (35°C). Signs include shivering, exhaustion, confusion, memory loss, slurred speech, slow heart rate, and even unconsciousness.
+
+To treat hypothermia, first ensure the victim is not in a life-threatening situation like cold water or further exposure to wind. Gently remove wet clothing and dry them if possible. Warm the center of the body first – core – with blankets, body heat, or warm water bottles wrapped in cloth. Avoid massaging the skin as it can worsen hypothermia by increasing blood flow to the cold surface.
+
+If the victim is unconscious or shows no sign of life, seek immediate medical help. In all cases, transport the person to a warm environment as soon as possible.",10.649227857589722,"[0.13119046495966102, 0.11908766520902081, 0.11614283338315258]",0.1221403211839448,"['FM3-05-70_sent_78', 'FM21-76_sent_7', 'FM3-05-70_sent_445']",0.4444444444444444,0.0,0.1221403211839448,0.1221403211839448,0.13119046495966102
+gemma3+nomic,How do I find water in the desert?,page,dense_nomic,gemma3,nomic,"Right, let’s talk about water in the harsh desert environment. It’s the absolute priority. You’re going to find it’s a brutal fight for every drop. 
+
+Firstly, look for cacti – barrel cacti specifically. Now, don’t be tempted to eat the pulp, it’s toxic. You need to carefully cut off the top, it’s going to be tough. Squeeze the juice out, discarding the pulp. 
+
+Secondly, understand the terrain. Sandy deserts can be deceptive. Pay attention to the windward and leeward slopes of dunes; moisture can collect there. 
+
+Finally, remember, water discipline is a dangerous tactic. It’s a last resort, and only if you’re absolutely certain you can manage. Conserve what you have, and always be searching.",12.604020357131958,"[0.7889768313085016, 0.7693016661078774, 0.7362635863821281]",0.764847361266169,"['nomic_FM3-05-70_page_90', 'nomic_FM21-76_page_135', 'nomic_FM21-76_page_132']",0.6283185840707964,0.8608019351959229,0.764847361266169,0.764847361266169,0.7889768313085016
+gemma3+nomic,How do I find water in the desert?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s get you hydrated. The desert’s a brutal teacher, but it has rules. First, look for trails – they *always* lead to water. Follow where paths converge, and keep an eye out for signs: old campsites, campfire ash, animal tracks, even trampled sand. 
+
+Birds are your friends here. Watch for flocks circling, especially at dawn and dusk; they're heading straight for water sources. 
+
+Now, to actually collect it, you'll want to create a still. Use a container, heat it up, and place it over sand. The heat will cause the sand to steam, and you can collect that condensed water. Digging behind the first sand dunes can also create a natural collection point. 
+
+Stay vigilant, and don’t give up.",7.402075529098511,"[0.8205092901412794, 0.7920053694717805, 0.7629138218326788]",0.7918094938152462,"['nomic_FM3-05-70_fixed_150', 'nomic_FM3-05-70_fixed_148', 'nomic_FM3-05-70_fixed_145']",0.5641025641025641,0.8529617786407471,0.7918094938152462,0.7918094938152462,0.8205092901412794
+gemma3+nomic,How do I find water in the desert?,sentence,dense_nomic,gemma3,nomic,"Right, let’s talk about finding water in a desert – it’s absolutely critical. The first thing to understand is that the desert doesn’t give up its secrets easily. 
+
+You need to look for trails. Seriously, *all* trails converge on water sources. Keep an eye out for signs – campfires, animal tracks, trampled ground – anything that indicates someone, or an animal, has been there before. 
+
+Secondly, observe the birds. Flocks circling overhead, particularly at dawn and dusk, are a strong indicator of a water source nearby. 
+
+Finally, understand the environment. It’s brutally hot, dry, and you’re going to need to conserve every drop you have. Don’t waste energy chasing mirages – focus on those trails and those birds.",7.282876253128052,"[0.8241793570681957, 0.7590389304421507, 0.7576470967768686]",0.7802884614290716,"['nomic_FM3-05-70_sent_156', 'nomic_FM3-05-70_sent_387', 'nomic_FM21-76_sent_288']",0.44642857142857145,0.9090368747711182,0.7802884614290716,0.7802884614290716,0.8241793570681957
+gemma3+nomic,What should I do if I encounter a venomous snake?,page,dense_nomic,gemma3,nomic,"Right, listen closely. Encounters with venomous snakes are serious, and a calm, deliberate approach is absolutely critical. 
+
+First, *do not* provoke them. These animals can’t close their eyes, so you can’t tell if they’re asleep. Just back away slowly, maintaining a safe distance. 
+
+If you find yourself near a snake – say, investigating a log – *don’t* reach into dark places without thoroughly checking them first. 
+
+And if you’re bitten, the immediate priority is to minimize damage. Keep the area calm, and get medical attention as quickly as possible. 
+
+Your survival depends on respect and careful observation.",6.272799968719482,"[0.7817448657345412, 0.7620108459615009, 0.7444035422236353]",0.7627197513065592,"['nomic_FM3-05-70_page_531', 'nomic_FM21-76_page_32', 'nomic_FM3-05-70_page_184']",0.6344086021505376,0.8325581550598145,0.7627197513065592,0.7627197513065592,0.7817448657345412
+gemma3+nomic,What should I do if I encounter a venomous snake?,fixed_size,dense_nomic,gemma3,nomic,"Right, let's get this straight. Encountering a venomous snake is a serious situation, and the best approach is always avoidance. 
+
+First, and this is crucial – *leave it alone*. Don’t try to get a closer look, don’t attempt to handle it, don’t tease it. These animals aren't looking for trouble. 
+
+Secondly, adjust your environment.  Clear a space to sleep, ideally a well-lit clearing away from dense vegetation like thick brush or rock piles. Use mosquito netting, tucked securely under your bag, as an extra layer of protection. 
+
+Finally, be mindful of your surroundings. Watch your step, especially when navigating uneven ground or areas with potential hiding spots. 
+
+Your safety is paramount. Don’t take unnecessary risks.",7.2994396686553955,"[0.8165181218952207, 0.7970906283307369, 0.7964017944235391]",0.803336848216499,"['nomic_FM3-05-70_fixed_304', 'nomic_FM3-05-70_fixed_832', 'nomic_FM21-76_fixed_260']",0.5,0.8931146860122681,0.803336848216499,0.803336848216499,0.8165181218952207
+gemma3+nomic,What should I do if I encounter a venomous snake?,sentence,dense_nomic,gemma3,nomic,"Right, listen carefully. If you come face to face with a venomous snake, your immediate priority is staying calm. Panic is your enemy. 
+
+First, keep the person bitten still. Movement can spread the venom faster. Reassure them – a clear head is vital. 
+
+Next, assess the situation. Look for those telltale puncture wounds – that’s where the venom entered. Watch for symptoms: bleeding, swelling, difficulty breathing – these can appear quickly, often within an hour or two. 
+
+Remove any tight jewelry that could restrict blood flow.  Keep them warm, and if possible, get them to drink fluids.  We need to get medical attention as quickly as possible.  Don’t try to suck out the venom – it won’t work, and you’ll just risk further injury.",7.432153701782227,"[0.7782178059837886, 0.7771109847137563, 0.7770356706331002]",0.7774548204435484,"['nomic_FM3-05-70_sent_334', 'nomic_FM21-76_sent_78', 'nomic_FM3-05-70_sent_96']",0.453781512605042,0.8578329086303711,0.7774548204435484,0.7774548204435483,0.7782178059837886
+gemma3+nomic,How can I build a shelter in cold weather?,page,dense_nomic,gemma3,nomic,"Right, let's get you sheltered. Cold weather demands respect, and a solid shelter is your first priority. 
+
+You need to get *below* the wind and the snow – that’s key. If you’re in deep, packed snow, start by digging a pit, using the snow itself as insulation. Build a wall around the sides with packed snow to create a stable structure. 
+
+Then, layer on branches – evergreen boughs are ideal – to create a roof, angling them to deflect the wind and snow. Don’t forget to build a small entrance, blocking it with a snow block or even a rucksack. 
+
+Keep it tight, keep it dry, and you’ll be alright.",6.7394492626190186,"[0.814466191516103, 0.8113770546384146, 0.8046031713115228]",0.8101488058220134,"['nomic_FM21-76_page_49', 'nomic_FM3-05-70_page_244', 'nomic_FM21-76_page_48']",0.6633663366336634,0.8382225036621094,0.8101488058220134,0.8101488058220134,0.814466191516103
+gemma3+nomic,How can I build a shelter in cold weather?,fixed_size,dense_nomic,gemma3,nomic,"Alright, let’s talk about staying alive when the cold bites. You need to think about insulation, and it’s absolutely critical. 
+
+First, you’re going to want to create a base – a thick layer of dry material like pine needles or leaves, at least a meter deep, to stop the cold from seeping through. 
+
+Then, if you can find a deep snowdrift, dig a snow cave. Build the roof with an arch to prevent collapse and allow melted snow to run down the sides. Raise the sleeping platform to stay dry. 
+
+Don't underestimate the effort – it’s going to take time and energy, and you *will* get wet. Focus on layering that insulation, and you’ll significantly increase your chances of survival.",6.903724193572998,"[0.8266259178951337, 0.8247311897393199, 0.817233741498324]",0.8228636163775925,"['nomic_FM21-76_fixed_126', 'nomic_FM3-05-70_fixed_417', 'nomic_FM21-76_fixed_369']",0.6347826086956522,0.8401134014129639,0.8228636163775925,0.8228636163775925,0.8266259178951337
+gemma3+nomic,How can I build a shelter in cold weather?,sentence,dense_nomic,gemma3,nomic,"Right, let’s get you sheltered. Cold weather demands respect, and your shelter is your first line of defense. 
+
+First, don’t overbuild. A cramped space is easier to keep warm. Think efficient, not extravagant. 
+
+Now, when constructing a snow shelter, you need to focus on drainage. Build that roof with an arch – it’ll channel melted snow away from you. And crucially, raise your sleeping platform above the floor. Dig a small trench to stop water from seeping in. 
+
+Finally, block the entrance – a rucksack or a snow block will do the trick. Ventilation is key, too, especially if you’re having a fire. Stay safe, stay warm.",6.480576992034912,"[0.8531947849291881, 0.8292097205670593, 0.8265995217602993]",0.8363346757521822,"['nomic_FM3-05-70_sent_458', 'nomic_FM3-05-70_sent_461', 'nomic_FM21-76_sent_348']",0.5841584158415841,0.8938108086585999,0.8363346757521822,0.8363346757521822,0.8531947849291881
+gemma3+nomic,What are the best methods to purify water for drinking?,page,dense_nomic,gemma3,nomic,"Right, let's get you hydrated. Water is absolutely critical – you can only survive a few days without it. 
+
+The key is to treat it. Don't even *think* of drinking untreated water from a stream or lake. 
+
+First, boiling is your best bet. Bring the water to a rolling boil for at least one minute – that’s a *full* minute – to kill off most pathogens. 
+
+If you can’t boil, you can build a simple filter. Layer sand, crushed rock, charcoal, and cloth – anything you can find – in a container. This will remove some of the sediment and impurities. 
+
+Finally, always let the water stand for 45 minutes after filtering to allow the water to settle. 
+
+Stay vigilant, and keep moving.",7.215711832046509,"[0.7722371253446252, 0.7650746163255671, 0.7527335537860622]",0.7633484318187514,"['nomic_FM21-76_page_61', 'nomic_FM3-05-70_page_100', 'nomic_FM21-76_page_62']",0.5982142857142857,0.8432914614677429,0.7633484318187514,0.7633484318187514,0.7722371253446252
+gemma3+nomic,What are the best methods to purify water for drinking?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s get you drinking safely. Water’s life, and contaminated water can quickly kill you. 
+
+The best approach is multi-layered. First, if you’ve collected rainwater – and it *should* be safe – that’s a great start. But don’t rely on it alone. 
+
+For anything else, you need to purify. Tablets are quick and easy, follow the instructions precisely. Alternatively, a small amount of iodine – five drops for clear water, ten for cloudy – will do the trick, just let it sit for thirty minutes. 
+
+And crucially, don’t underestimate the power of a simple still. Multiple stills are key, especially when dealing with saltwater. It’s about creating a process, a layered defense against contamination. Keep moving, keep purifying, and stay alive.",7.303603172302246,"[0.7870501889020778, 0.7773753386241945, 0.7613951624844957]",0.7752735633369227,"['nomic_FM21-76_fixed_143', 'nomic_FM3-05-70_fixed_164', 'nomic_FM3-05-70_fixed_163']",0.4824561403508772,0.8724040985107422,0.7752735633369227,0.7752735633369227,0.7870501889020778
+gemma3+nomic,What are the best methods to purify water for drinking?,sentence,dense_nomic,gemma3,nomic,"Right, let’s talk about water. It’s absolutely critical – you can’t survive without it. 
+
+When you’re out in the wilderness, you need to treat *every* source of water. Don’t take chances. 
+
+The best ways? Boiling is gold standard – bring it to a rolling boil for a full minute to kill off anything nasty. If you can’t boil, purification tablets are a good backup. 
+
+Alternatively, you can use iodine or potassium permanganate – but be careful with those. With potassium permanganate, you’ll need to judge the dosage by the color of the water. 
+
+Always, always purify water from lakes, ponds, swamps, or streams. It’s a matter of life and death out there.",7.168410539627075,"[0.800682190968428, 0.778748604811071, 0.7597289640487168]",0.7797199199427386,"['nomic_FM3-05-70_sent_173', 'nomic_FM21-76_sent_132', 'nomic_FM3-05-70_sent_175']",0.5794392523364486,0.8626671433448792,0.7797199199427386,0.7797199199427386,0.800682190968428
+gemma3+nomic,How do I start a fire without matches?,page,dense_nomic,gemma3,nomic,"Right, let’s get a fire going. Don’t panic. You need to focus on creating that initial spark. 
+
+First, gather your materials – you need tinder, kindling, and fuel. Tinder is the really dry stuff that catches a spark – think dry leaves, birch bark, or even very finely shredded cloth. 
+
+Now, you're going to use a lens – a magnifying glass, a camera lens, anything that can focus the sun’s rays. Position it so the sunlight concentrates on your tinder.  Hold it steady, and with a little patience, you’ll get a tiny ember. 
+
+Once you have that ember, gently nurture it with small pieces of kindling – gradually building up the flame. 
+
+Remember, keep your tinder dry, and always light from the upwind side.  Stay calm, and you’ll be warm in no time.",8.116137504577637,"[0.7187962368217883, 0.7018856105302529, 0.6850924349096819]",0.7019247607539075,"['nomic_FM21-76_page_68', 'nomic_FM3-05-70_page_111', 'nomic_FM21-76_page_66']",0.624,0.8608254194259644,0.7019247607539075,0.7019247607539078,0.7187962368217883
+gemma3+nomic,How do I start a fire without matches?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s get a fire going, no matter what. Forget relying solely on matches – it’s about building a sustainable blaze. 
+
+You need to create a solid foundation. Start with a small ‘starter fire’ – dry tinder, like birch bark or cotton balls soaked in petroleum jelly – and build a small pyramid of logs on top, each layer smaller than the one below, and angled right across. 
+
+As that starter fire burns, it’ll ignite the lower logs. This creates a fire that burns downwards, providing heat and light without needing constant attention. 
+
+Focus on dry materials; that’s key. A good, well-built fire is a lifeline in any situation.",6.322303533554077,"[0.7160842425766772, 0.7018545819719163, 0.6864669410095542]",0.7014685885193827,"['nomic_FM21-76_fixed_154', 'nomic_FM3-05-70_fixed_180', 'nomic_FM3-05-70_fixed_179']",0.54,0.8567067384719849,0.7014685885193827,0.7014685885193827,0.7160842425766772
+gemma3+nomic,How do I start a fire without matches?,sentence,dense_nomic,gemma3,nomic,"Right, let’s get a fire going, no matter what. If you've lost your matches, you need to be methodical. 
+
+First, find some dry tinder – think birch bark, dry grass, or even finely shredded cedar. Build a small nest and place it on the windward side. 
+
+Now, you'll want to use friction. A bow drill is a solid option. You need a fire board with a carved depression, a bow, and a drill. 
+
+Loop the bowstring around the drill and place the drill firmly in the depression. Now, using a sawing motion with the bow, apply consistent downward pressure. It takes practice, but with persistence, you’ll create enough friction to start a coal. Carefully transfer that coal to your tinder nest and gently blow to get it burning. 
+
+Don’t give up. It's about patience and technique.",7.943812131881714,"[0.7177149850162203, 0.7090828289550246, 0.688786302769784]",0.705194705580343,"['nomic_FM21-76_sent_143', 'nomic_FM3-05-70_sent_195', 'nomic_FM21-76_sent_149']",0.46875,0.8951915502548218,0.705194705580343,0.705194705580343,0.7177149850162203
+gemma3+nomic,What plants are safe to eat in a survival situation?,page,dense_nomic,gemma3,nomic,"Right, let's talk about food when things get tough. The key here is absolute certainty. Don’t gamble with your life – you absolutely *must* positively identify any plant you’re considering eating. 
+
+Forget relying on vague notions of “survival rations.” You need to be resourceful. Look for familiar edible plants – things you recognize. Wild carrots and wild parsnips, for example, can be a source of sustenance, but *only* if you’re 100% sure they’re what you’re after. 
+
+Poison hemlock is a deadly example – it looks similar to harmless relatives.  Never assume a plant is safe just because it looks like something you’ve eaten before.  Observation, careful identification, and a healthy dose of caution are your best defenses.",7.169085502624512,"[0.8172291785789545, 0.7993931521956498, 0.7985117185998811]",0.8050446831248284,"['nomic_FM3-05-70_page_157', 'nomic_FM3-05-70_page_158', 'nomic_FM21-76_page_99']",0.5739130434782609,0.8504667282104492,0.8050446831248284,0.8050446831248285,0.8172291785789545
+gemma3+nomic,What plants are safe to eat in a survival situation?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s talk about food. In a serious survival situation, your primary focus has to be on what you *know* you can safely eat. Don't gamble with unfamiliar plants – that's a fast track to disaster. 
+
+Prioritize familiar edibles. Berries you recognize, edible roots – anything you’ve seen and know is safe.  Always cook your food thoroughly.  And remember, plants aren’t just about sustenance; they're about survival. They can provide medicines, materials for shelter, and even tools for hunting and defense.  Observe, learn, and respect the land.  Your life depends on it.",5.812159538269043,"[0.853785136766407, 0.8125367330372159, 0.8105405001476653]",0.8256207899837626,"['nomic_FM3-05-70_fixed_253', 'nomic_FM21-76_fixed_217', 'nomic_FM21-76_fixed_218']",0.5888888888888889,0.9022860527038574,0.8256207899837626,0.8256207899837626,0.853785136766407
+gemma3+nomic,What plants are safe to eat in a survival situation?,sentence,dense_nomic,gemma3,nomic,"Right, let's talk about food – specifically, plants. When you're out there, your priority is finding reliable sustenance, and plants can be a crucial part of that. 
+
+Now, the safest bet is going to be root vegetables. Potatoes, turnips, carrots – anything that grows underground. These are generally the cleanest, and scrubbing off the outer skin is absolutely vital. 
+
+Don’t just randomly start munching on greenery. Always clean them thoroughly. A little salt can help preserve meat, but remember to rinse it off before cooking. 
+
+Your gut is your best guide – if something looks or smells off, don’t risk it. Prioritize what you know, and keep moving.",6.322522878646851,"[0.8123472212909574, 0.8124961949831505, 0.8077738435971249]",0.8108724199570775,"['nomic_FM21-76_sent_209', 'nomic_FM3-05-70_sent_280', 'nomic_FM3-05-70_sent_730']",0.5288461538461539,0.8430613279342651,0.8108724199570775,0.8108724199570775,0.8123472212909574
+gemma3+nomic,How can I signal for rescue?,page,dense_nomic,gemma3,nomic,"Right, let’s get you out of this situation. The first thing you need to do is make yourself known. If you’ve got a radio – and you should always have one – transmit a Mayday, Mayday call. Give them your call sign if you have one, your name, and pinpoint your exact location. Tell them how many survivors there are and any immediate needs, like medical assistance. 
+
+If you don’t have a radio, use sound. A whistle or even a series of well-timed gunshots can draw attention. But remember, a signal isn't a guarantee. Keep those survival techniques sharp – shelter, water, fire – and continue to listen for instructions. Don’t assume you’re safe just because someone’s heard you. Stay vigilant, stay alive.",7.1091978549957275,"[0.7430936522976435, 0.7374965773207681, 0.7313875122487566]",0.7373259139557228,"['nomic_FM21-76_page_208', 'nomic_FM3-05-70_page_327', 'nomic_FM3-05-70_page_333']",0.5304347826086957,0.7876166105270386,0.7373259139557228,0.7373259139557228,0.7430936522976435
+gemma3+nomic,How can I signal for rescue?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s get you out of this. The key here is to be seen, and to make sure someone *hears* you. 
+
+First, build a visual signal. A bright flag, a shiny piece of metal – anything to catch the eye of a passing aircraft. Get it as high as you can. 
+
+Secondly, locate that radio – it’s your lifeline. Use it sparingly, only when you know there’s a good chance of contact. 
+
+Don’t just rely on one method. Think about what you can create – a smoke signal, a ground-to-air signal. Practice these techniques *before* you need them. 
+
+It’s about preparation, and maximizing your chances of being spotted. Now, let's get to work.",7.193046808242798,"[0.8083891562965807, 0.7916639264872432, 0.7541836428565555]",0.7847455752134597,"['nomic_FM3-05-70_fixed_452', 'nomic_FM21-76_fixed_493', 'nomic_FM3-05-70_fixed_553']",0.6095238095238096,0.8151623010635376,0.7847455752134597,0.7847455752134597,0.8083891562965807
+gemma3+nomic,How can I signal for rescue?,sentence,dense_nomic,gemma3,nomic,"Right, let’s get you out of this. Signaling for rescue is about maximizing your chances, and it’s layered. First, you need to be seen. Get that reflective material – an oar, a piece of metal – as high as you can. It’s a simple, powerful visual. 
+
+Then, use your radio. Familiarize yourself with it, understand how to send a distress signal. But be smart about it. Only use it when you’re confident aircraft are nearby. 
+
+Don’t forget audio signals – a whistle, even carefully placed gunshots. And if all else fails, sea dye – it could be your last, best shot. Prioritize your safety, but don’t hesitate to signal. Let’s get you home.",7.2481849193573,"[0.8327999483434033, 0.7886881044485624, 0.7616785187531189]",0.7943888571816949,"['nomic_FM3-05-70_sent_502', 'nomic_FM21-76_sent_469', 'nomic_FM3-05-70_sent_631']",0.5943396226415094,0.8753476738929749,0.7943888571816949,0.7943888571816949,0.8327999483434033
+gemma3+nomic,What should I do if I get lost in the wilderness?,page,dense_nomic,gemma3,nomic,"Right, let’s get you out of this. The first thing – and this is absolutely critical – is to *stop*. Panic is your worst enemy. Take a deep breath and assess. 
+
+You need to understand your immediate environment. Are you in a cold or wet climate? Add layers – every bit of insulation you can get will buy you time. 
+
+Look around. What’s the terrain like? Are you in a swamp? That’ll dictate your movement. 
+
+Then, figure out your priorities: shelter, water, and signaling. Don’t waste energy. Stay calm, stay focused, and get moving methodically.",5.864015102386475,"[0.6962771678143581, 0.6955757458752984, 0.6732806155709753]",0.6883778430868772,"['nomic_FM3-05-70_page_11', 'nomic_FM21-76_page_142', 'nomic_FM21-76_page_182']",0.6666666666666666,0.7905772924423218,0.6883778430868772,0.6883778430868772,0.6962771678143581
+gemma3+nomic,What should I do if I get lost in the wilderness?,fixed_size,dense_nomic,gemma3,nomic,"Right, let’s get you sorted. Getting lost is a serious situation, but panic won’t help. The first thing – and this is absolutely critical – is to stop. Take a deep breath and assess. 
+
+You need to pinpoint exactly where you are. Grab that map and orient yourself. Don’t just look around, *find* your location on the map and match it to the terrain. 
+
+Then, look for natural paths – game trails, often lead to water or clearings. If you can’t find a trail, be aware of your surroundings, listen for sounds, and pay attention to changes in temperature. 
+
+Don’t wander aimlessly. Your survival depends on a clear head and a methodical approach. Now, let’s get moving with a plan.",7.076245307922363,"[0.7027200256247632, 0.6943987503171267, 0.7001519931411339]",0.699090256361008,"['nomic_FM3-05-70_fixed_3', 'nomic_FM21-76_fixed_332', 'nomic_FM3-05-70_fixed_380']",0.6306306306306306,0.8388324975967407,0.699090256361008,0.699090256361008,0.7027200256247632
+gemma3+nomic,What should I do if I get lost in the wilderness?,sentence,dense_nomic,gemma3,nomic,"Right, let’s get this sorted. If you’re lost, the first thing is to *stay calm*. Panic is your worst enemy. 
+
+Now, you need to assess your situation. Immediately, try to pinpoint exactly where you are. Look for landmarks – a stream, a distinctive tree – anything you can use to get your bearings. 
+
+Then, move deliberately. Don’t thrash around. The jungle’s going to be tough on you, so move smoothly, sliding between the undergrowth. Keep your body low to the ground, and constantly scan your surroundings. 
+
+And crucially, hydrate. Dehydration will quickly compromise your judgment. 
+
+Don’t wander aimlessly. Establish a direction and stick to it, always aware of your environment.",6.806010723114014,"[0.6864719535280781, 0.6813987634318234, 0.6777952216129722]",0.6818886461909579,"['nomic_FM3-05-70_sent_420', 'nomic_FM3-05-70_sent_419', 'nomic_FM21-76_sent_2']",0.5660377358490566,0.8117295503616333,0.6818886461909579,0.6818886461909579,0.6864719535280781
+gemma3+nomic,How do I treat a broken bone in the wilderness?,page,dense_nomic,gemma3,nomic,"Right, let’s get this sorted. A broken bone in the wild – it’s a serious situation, and speed is absolutely key. 
+
+First, assess the injury. Is it open, with bone poking through the skin? If so, that’s a major concern – we’re dealing with contamination and potential nerve damage. Immediately, cover the wound with whatever clean material you have, and try to stabilize the area. 
+
+If it's a closed fracture, minimal movement is crucial. We don’t want to exacerbate the damage. Gently immobilize the limb as best you can, using splints made from branches and cloth. 
+
+Watch closely for signs of vascular compromise – numbness, discoloration, swelling, or shock. If you see those, you need to get the person stabilized immediately and prepare for evacuation. Remember, a stable fracture is a manageable fracture.",7.717217922210693,"[0.7317751307531445, 0.7280048034426475, 0.7159359740675924]",0.7252386360877948,"['nomic_FM3-05-70_page_48', 'nomic_FM21-76_page_28', 'nomic_FM21-76_page_27']",0.536,0.8595434427261353,0.7252386360877948,0.7252386360877948,0.7317751307531445
+gemma3+nomic,How do I treat a broken bone in the wilderness?,fixed_size,dense_nomic,gemma3,nomic,"Right, listen carefully. A broken bone is a serious situation, and speed is absolutely key. First, and this is crucial – minimize movement around the injury. Any jarring or twisting could worsen the damage. 
+
+Now, you need to focus on keeping the person warm. Shock is a massive threat with a fracture, so prioritize insulation. Build a shelter, use a sleeping bag if you have one, and create warmth with fire or warm water. 
+
+Watch the area closely. Numbness, swelling, a pale or cool complexion – these are all signs the bone is pressing on a nerve or blood vessel. If you see any of these, immediately administer small amounts of warm fluids, like a salt or sugar solution if you have it. Get them stabilized and moving is the last thing on your mind.",7.009824991226196,"[0.7367100992626882, 0.7292509748173525, 0.716215420363287]",0.7273921648144426,"['nomic_FM21-76_fixed_72', 'nomic_FM3-05-70_fixed_78', 'nomic_FM3-05-70_fixed_76']",0.5403225806451613,0.8594178557395935,0.7273921648144426,0.7273921648144426,0.7367100992626882
+gemma3+nomic,How do I treat a broken bone in the wilderness?,sentence,dense_nomic,gemma3,nomic,"Right, let's get this sorted. If you’ve got a suspected broken bone, your immediate priority is to stabilize it. Find a sheltered spot, get yourself – or your buddy – out of the elements. 
+
+Now, movement is the enemy. We’re talking minimal manipulation here. If you see any signs – numbness, swelling, a pale area, or signs of shock – it could mean a major blood vessel is damaged. Control that bleeding immediately. Rest the injured person, replace lost fluids, and we’ll get to a proper splint. 
+
+A splint needs to be firm, supporting the bone and keeping movement to a minimum. Don't try to set it yourself; we’re stabilizing, not fixing. Understand that. Now, let's get you safe.",7.095848083496094,"[0.7235805119478904, 0.7252596593331179, 0.72122444567383]",0.7233548723182794,"['nomic_FM21-76_sent_63', 'nomic_FM21-76_sent_64', 'nomic_FM3-05-70_sent_77']",0.48214285714285715,0.8477736711502075,0.7233548723182794,0.7233548723182794,0.7235805119478904
+gemma3+nomic,What are the signs of hypothermia and how do I treat it?,page,dense_nomic,gemma3,nomic,"Right, let’s talk about staying alive when the cold bites. Hypothermia is a serious threat – it's when your body loses heat faster than it can replace it. 
+
+The first sign you’ll likely see is shivering, but don't mistake that for immediate danger. It can quickly escalate. You’ll start to lose coordination, your judgment will go, and you’ll struggle to take care of yourself. 
+
+The absolute key is prevention. Build a shelter, stay dry, and keep moving to generate heat. If you or someone you’re with is showing signs of hypothermia, get them into a warm shelter immediately. Wrap them in anything available – dry clothing, blankets, even newspapers. Focus on warming them from the inside out – a warm drink if you have it. Don’t let them succumb to the cold.",7.543263912200928,"[0.8234033526855937, 0.7901036666590776, 0.772569956997758]",0.7953589921141431,"['nomic_FM21-76_page_150', 'nomic_FM3-05-70_page_236', 'nomic_FM21-76_page_36']",0.5736434108527132,0.8661694526672363,0.7953589921141431,0.7953589921141431,0.8234033526855937
+gemma3+nomic,What are the signs of hypothermia and how do I treat it?,fixed_size,dense_nomic,gemma3,nomic,"Right, listen carefully. Hypothermia is a killer, and it hits fast. The first sign you’ll notice is shivering – a frantic, uncontrollable shake. Don’t mistake that for just being cold; it’s your body desperately trying to generate heat. 
+
+If you’re shivering, you *need* to do something. Get moving, build a shelter, anything to force your body to burn energy. 
+
+Now, if you’re unconscious, don’t try to force fluids down their throat – that’s dangerous. If they're conscious, get them warm. Hot, sugary drinks like honey or dextrose are ideal, but anything sweet will help kickstart their metabolism. 
+
+Prevention is key, too. Stay dry, build a proper shelter, and look out for your buddies. Understand the symptoms and act fast. It’s about survival, plain and simple.",7.8337242603302,"[0.8216097659339171, 0.8103489999402163, 0.7815336992068115]",0.804497488360315,"['nomic_FM3-05-70_fixed_404', 'nomic_FM21-76_fixed_356', 'nomic_FM3-05-70_fixed_406']",0.4146341463414634,0.8320997953414917,0.804497488360315,0.804497488360315,0.8216097659339171
+gemma3+nomic,What are the signs of hypothermia and how do I treat it?,sentence,dense_nomic,gemma3,nomic,"Right, let’s get you out of this. Hypothermia is a serious threat, and recognizing the signs is absolutely critical. You’ll see shivering, often intense, and you might be shouting or struggling – the body’s trying to cope. You could be unconscious, and there’s a real risk of rebound heatstroke within 48 hours if it’s not addressed.
+
+The immediate treatment is simple but vital. Get the person to the best shelter you can find, away from wind and rain. Strip them of any wet clothing and get them into something dry. Replenish lost fluids with warm water – lightly salted is best. 
+
+And remember, if things deteriorate, be prepared for cardiac arrest and know how to perform CPR. Your survival depends on it.",6.906840801239014,"[0.8028357150378146, 0.7901084372806497, 0.7891412718055423]",0.7940284747080022,"['nomic_FM3-05-70_sent_445', 'nomic_FM3-05-70_sent_117', 'nomic_FM21-76_sent_92']",0.5714285714285714,0.8685671091079712,0.7940284747080022,0.7940284747080022,0.8028357150378146
+gemma3+minilm,How do I find water in the desert?,page,dense_minilm,gemma3,minilm,"Right, let's talk about water in the harsh desert. It’s a brutal environment, and finding it demands respect and a methodical approach. 
+
+First, you need to be smart about cacti. Don’t waste energy trying to hack through them – it's a losing battle. Instead, carefully cut off the top, recognizing the spines are a serious threat. You're after the juice, not the flesh. Suck out the juice, discarding the pulp – it’s not safe to eat. 
+
+Beyond that, look for dew. Early in the morning, tie rags or grass around your ankles and walk through dew-covered grass. Wring out the moisture into a container. It’s slow, but it’s a reliable source. 
+
+Remember, every drop counts. Conserve your energy and stay vigilant.",7.637399435043335,"[0.6761172018108593, 0.5494382280212979, 0.5297973334662001]",0.5851175877661191,"['minilm_FM3-05-70_page_90', 'minilm_FM21-76_page_143', 'minilm_FM21-76_page_56']",0.7043478260869566,0.7607911825180054,0.5851175877661191,0.5851175877661191,0.6761172018108593
+gemma3+minilm,How do I find water in the desert?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s get you hydrated. The desert is a brutal teacher, but it offers clues if you know where to look. 
+
+Firstly, trails – always follow where people have been. Camps, campfire signs, animal tracks… they all lead to water sources. Secondly, observe the birds. Flocks circling overhead, especially at dawn and dusk, are a good sign. 
+
+Now, for gathering what you find: Dig! Find a natural depression behind the first sand dunes and dig a hole. You can also dig deep into a sand dune belt.  Use a container to collect the steam you create by heating rocks and wringing water from cloth. 
+
+Stay calm, observe, and dig. That's the key.",6.548100233078003,"[0.701944256417901, 0.6633458849777946, 0.5858646432733473]",0.6503849282230143,"['minilm_FM3-05-70_fixed_150', 'minilm_FM3-05-70_fixed_148', 'minilm_FM3-05-70_fixed_145']",0.6285714285714286,0.6611067056655884,0.6503849282230143,0.6503849282230143,0.701944256417901
+gemma3+minilm,How do I find water in the desert?,sentence,dense_minilm,gemma3,minilm,"Right, let’s get you out of this heat. Finding water in the desert is all about observation and a little bit of luck. 
+
+Firstly, look for trails – they almost always lead to water sources. Pay attention to where paths converge; that’s a strong indicator. You’ll also spot signs of previous travelers: campfires, animal tracks, and disturbed ground. 
+
+Secondly, watch the birds. Flocks circling overhead, especially at dawn and dusk, are a clear signal. 
+
+And most importantly, *never* drink seawater without purifying it. If you have a tarp, collect rainwater. If not, dig a hole in the ground – it’s a last resort, but it can work. 
+
+Stay aware of your surroundings, and keep moving.",7.036926507949829,"[0.6916648561163341, 0.6405815962333221, 0.5861718533187317]",0.6394727685561293,"['minilm_FM3-05-70_sent_156', 'minilm_FM3-05-70_sent_154', 'minilm_FM3-05-70_sent_394']",0.5555555555555556,0.7447711825370789,0.6394727685561293,0.6394727685561293,0.6916648561163341
+gemma3+minilm,What should I do if I encounter a venomous snake?,page,dense_minilm,gemma3,minilm,"Right, listen closely. Encounters with venomous snakes – they’re a serious threat, and respect is absolutely key. 
+
+First, don’t rush in. If you spot one, immediately back away slowly, keeping your eyes on it. Don’t make any sudden movements. 
+
+Now, if you’re in an area with dense vegetation – think thick brush or a dark hollow log – *always* investigate before you put your hand in. Seriously, don’t take chances. 
+
+And if you’re crossing a fallen tree, *look* to see if there's a snake on the other side. 
+
+If you do come face to face with a venomous snake, try to identify it. But don't get close enough to do that. Get yourself to safety, and get help. Understand? Good.",7.557799577713013,"[0.6820437958504505, 0.6718449041956721, 0.6676089876755664]",0.6738325625738963,"['minilm_FM3-05-70_page_531', 'minilm_FM3-05-70_page_537', 'minilm_FM3-05-70_page_569']",0.5304347826086957,0.7076845765113831,0.6738325625738963,0.6738325625738963,0.6820437958504505
+gemma3+minilm,What should I do if I encounter a venomous snake?,fixed_size,dense_minilm,gemma3,minilm,"Right, listen closely. The key here is respect – and distance. If you spot a snake, especially one you can’t positively identify, the absolute best course of action is to simply *leave it alone*. 
+
+Don’t get close. Don’t try to track it. These creatures are perfectly capable of defending themselves, and frankly, you don’t want to add another risk to the situation. 
+
+If you *must* move through an area where snakes could be present, be deliberate. Scan your surroundings. Don’t reach into dark crevices or under rocks without a thorough look first. And if you do encounter a snake, maintain a safe distance and back away slowly. 
+
+Your priority is to avoid a confrontation. Understand? Good. Now, let’s move on.",6.997217416763306,"[0.6958530901409858, 0.6844487502929707, 0.6704318979205445]",0.6835779127848336,"['minilm_FM3-05-70_fixed_832', 'minilm_FM3-05-70_fixed_304', 'minilm_FM21-76_fixed_87']",0.5877192982456141,0.7439016103744507,0.6835779127848336,0.6835779127848337,0.6958530901409858
+gemma3+minilm,What should I do if I encounter a venomous snake?,sentence,dense_minilm,gemma3,minilm,"Right, listen closely. If you’re bitten by a venomous snake, your immediate actions are absolutely critical. First, stay calm. Reassure the person bitten and get them to lie still – movement spreads the venom. 
+
+Next, address shock. Get them lying down, elevate their legs if possible, and force fluids into them. Remove any rings, watches, or bracelets that could restrict blood flow. 
+
+Carefully clean the bite area, and ensure they're breathing freely. Look for signs like swelling or difficulty breathing – these are serious. 
+
+It’s vital to recognize the signs – a distinct puncture wound, bleeding, and rapid swelling. Don't panic, but act decisively. Your priority is to slow the spread of venom and get medical attention as quickly as possible.",7.032788991928101,"[0.6887059685302396, 0.6718573502776776, 0.6703701018233161]",0.6769778068770776,"['minilm_FM3-05-70_sent_96', 'minilm_FM3-05-70_sent_897', 'minilm_FM21-76_sent_78']",0.5254237288135594,0.8518734574317932,0.6769778068770776,0.6769778068770776,0.6887059685302396
+gemma3+minilm,How can I build a shelter in cold weather?,page,dense_minilm,gemma3,minilm,"Right, let’s get you protected. Cold weather demands immediate action – your shelter is your priority. 
+
+First, find a sturdy tree with dense branches above – that’s your foundation. Then, dig a pit around the trunk, packing the snow firmly to create a stable, insulated space. Layer evergreen boughs over the top for extra protection from the wind and snow. 
+
+Think of it like a snow-filled cocoon. A well-built snow shelter can drastically reduce heat loss, preserving your energy and, frankly, your will to keep going. Don't underestimate the power of a solid shelter in a harsh environment.",5.638370752334595,"[0.7035397711221809, 0.6918189484243293, 0.6890111256496975]",0.694789948398736,"['minilm_FM21-76_page_38', 'minilm_FM21-76_page_49', 'minilm_FM21-76_page_155']",0.5934065934065934,0.7742774486541748,0.694789948398736,0.694789948398736,0.7035397711221809
+gemma3+minilm,How can I build a shelter in cold weather?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s get you sheltered. Cold weather demands a solid defense, and a good shelter is absolutely critical. 
+
+First, look for a tree with dense branches – that’s your starting point. Then, you’re going to dig out a snow pit around the base of that tree. Think of it as creating a snow-filled trench. Pack that snow firmly – it needs to be solid to support the structure. 
+
+Next, gather evergreen boughs and place them over the top of the pit, creating a roof. This will trap the heat and keep you insulated. Remember, a tight, well-packed shelter is your best bet against the elements. Don't underestimate the power of a good snow structure.",6.475418567657471,"[0.7388043544944156, 0.7081279594164949, 0.6935672377791279]",0.7134998505633461,"['minilm_FM3-05-70_fixed_414', 'minilm_FM21-76_fixed_366', 'minilm_FM21-76_fixed_127']",0.5887850467289719,0.7142577171325684,0.7134998505633461,0.7134998505633461,0.7388043544944156
+gemma3+minilm,How can I build a shelter in cold weather?,sentence,dense_minilm,gemma3,minilm,"Right, let’s talk about staying alive when the cold bites. Shelter is absolutely critical – it’s your first line of defense. 
+
+Firstly, don’t overbuild. A small, well-insulated space is far better than a massive one you struggle to heat. 
+
+Now, a snow cave is a fantastic option, but it takes effort. Dig deep – aim for about three meters – and pack the snow tightly. Ventilation is key; always leave a small opening. 
+
+If you’re in an area with snow drifts, a simple lean-to shelter can work. Build it against a natural feature, like a rock or tree, and pack snow around the base for insulation. 
+
+Remember, warmth comes from minimizing heat loss. Block the entrance, and keep that fire burning!",7.072540998458862,"[0.814384272844251, 0.7132281785655653, 0.7067129855686755]",0.7447751456594972,"['minilm_FM3-05-70_sent_458', 'minilm_FM21-76_sent_348', 'minilm_FM3-05-70_sent_463']",0.5486725663716814,0.7704520225524902,0.7447751456594972,0.7447751456594972,0.814384272844251
+gemma3+minilm,What are the best methods to purify water for drinking?,page,dense_minilm,gemma3,minilm,"Right, let’s talk about water. It’s absolutely critical – you can’t survive long without it. 
+
+The simplest thing is boiling. Bring the water to a rolling boil for at least one minute, preferably longer at higher altitudes. That’s your first line of defense. 
+
+If you're in a situation where boiling isn’t possible, you need to build a still. Seriously, get yourself three of them. It’s a slow process, but it’s a reliable way to pull moisture from the environment – vegetation, damp ground… anything. 
+
+And always, *always* have a container. If you don’t, improvise. A carefully pleated piece of plastic or cloth can work in a pinch. 
+
+Stay sharp, stay observant, and keep that water flowing.",7.203446865081787,"[0.7285316094928419, 0.6805193244789813, 0.5654843135778193]",0.6581784158498808,"['minilm_FM3-05-70_page_100', 'minilm_FM21-76_page_61', 'minilm_FM21-76_page_55']",0.5514018691588785,0.5591111183166504,0.6581784158498808,0.6581784158498808,0.7285316094928419
+gemma3+minilm,What are the best methods to purify water for drinking?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s talk about water – absolutely critical in any survival situation. You need to get it clean, and fast. 
+
+The best approach, especially with saltwater, is a vegetation bag still. It consistently produces the most water, drawing moisture from plants. You’ll need at least three of these to cover your needs. 
+
+Alongside that, build a filtering system. Layer sand, crushed rock, charcoal, and cloth – whatever you can find – to remove impurities. 
+
+And remember, filtering just makes the water *palatable*. You *must* purify it afterwards. Rainwater, if collected safely, is a good start, but always boil it or use purification tablets to eliminate bacteria and viruses. Don’t compromise on this – your life depends on it.",6.872688055038452,"[0.7490614268606451, 0.7287949418626661, 0.5838856716321325]",0.6872473467851479,"['minilm_FM3-05-70_fixed_163', 'minilm_FM21-76_fixed_143', 'minilm_FM3-05-70_fixed_169']",0.6339285714285714,0.6896403431892395,0.6872473467851479,0.6872473467851479,0.7490614268606451
+gemma3+minilm,What are the best methods to purify water for drinking?,sentence,dense_minilm,gemma3,minilm,"Right, let’s talk about water. It’s absolutely critical – you can’t survive without it. Now, the simple truth is, you need to purify *any* water you find, especially if it’s coming from a lake, pond, or stream. 
+
+The best ways? Boiling is gold standard – bring it to a rolling boil for a full minute to kill off anything nasty. Alternatively, use purification tablets – follow the instructions *exactly*. 
+
+If you don’t have a way to boil, iodine tablets are a good backup. Five drops of tincture of iodine per canteen – again, stick to the directions. 
+
+Don’t take chances. Always purify your water. It’s a matter of life and death out here.",6.706573486328125,"[0.7317351923728529, 0.7288692942165153, 0.631049558322638]",0.6972180149706687,"['minilm_FM3-05-70_sent_173', 'minilm_FM21-76_sent_132', 'minilm_FM3-05-70_sent_473']",0.5145631067961165,0.8335782885551453,0.6972180149706687,0.6972180149706687,0.7317351923728529
+gemma3+minilm,How do I start a fire without matches?,page,dense_minilm,gemma3,minilm,"Right, let’s get a fire going. It’s absolutely crucial to get this right – a fire is your lifeline out here. 
+
+First, you need to understand the basics. You’ll need three things: tinder, kindling, and fuel. Tinder is your initial spark – something like dry grass or bird’s nest material. Kindling is small, dry sticks that catch fire from the tinder. Then, you build up with larger fuel wood. 
+
+Now, without matches, you’ll need to create your own spark. A good method is using flint and steel. Find a piece of hard, sharp rock – flint is ideal – and a piece of steel. Strike the steel against the flint, focusing the sparks directly into your tinder. 
+
+Keep the wind at your back, and be patient. It takes practice to get a good spark. Don’t give up!",8.010974168777466,"[0.6204980787638038, 0.6090420289446018, 0.5923586757594286]",0.6072995944892781,"['minilm_FM3-05-70_page_111', 'minilm_FM21-76_page_69', 'minilm_FM21-76_page_66']",0.689922480620155,0.7462282776832581,0.6072995944892781,0.6072995944892781,0.6204980787638038
+gemma3+minilm,How do I start a fire without matches?,fixed_size,dense_minilm,gemma3,minilm,"Right, let's get a fire going, no matter what. You need to build a solid base, and it’s about patience. 
+
+First, you’ll want to create a small, contained fire – a ‘starter’ – using tinder. Once that catches, you’ll build a pyramid of wood, layering it in stages, each layer smaller and at a right angle to the one below. This allows the flames to burn downwards, feeding itself and giving you a fire that will last. 
+
+Don't rush it. A good fire is built, not blown into existence. Keep feeding it small pieces of wood as it grows. 
+
+Now, if you don't have a lighter, you'll need to create that initial spark – friction is key.",6.972369432449341,"[0.6166482509048912, 0.603953664513223, 0.6029571297668102]",0.6078530150616414,"['minilm_FM3-05-70_fixed_185', 'minilm_FM21-76_fixed_154', 'minilm_FM3-05-70_fixed_179']",0.5185185185185185,0.7497252225875854,0.6078530150616414,0.6078530150616414,0.6166482509048912
+gemma3+minilm,How do I start a fire without matches?,sentence,dense_minilm,gemma3,minilm,"Right, let’s get a fire going. It’s absolutely critical in a survival situation, and it’s about understanding the fundamentals. You need to create a reaction – a sustained burn. 
+
+Firstly, find dry tinder. Build a small nest of it, and light it from the upwind side. Then, you’ll want to create a downward-burning fire. This means layering your fuel – logs – beneath the initial flame. 
+
+If you're using a bow drill, you’ll need to create friction. Press down firmly on the drill with one hand, and saw the bow back and forth to generate heat. It’s a process of creating a gas from the wood, which then ignites. 
+
+Don't forget, fire is a priority, but be mindful of your surroundings.",7.2620790004730225,"[0.6393991555065661, 0.6086977566857316, 0.5970366080325373]",0.6150445067416116,"['minilm_FM21-76_sent_143', 'minilm_FM3-05-70_sent_202', 'minilm_FM3-05-70_sent_181']",0.6071428571428571,0.8168355226516724,0.6150445067416116,0.6150445067416116,0.6393991555065661
+gemma3+minilm,What plants are safe to eat in a survival situation?,page,dense_minilm,gemma3,minilm,"Right, let's talk about food – specifically, plants. The key here is *knowledge*. Don't assume anything is safe just because you see it growing. 
+
+You absolutely *must* understand the plant's lifecycle. Some plants are only safe to eat at specific times – perhaps when the leaves are young, or the fruit is fully ripe. Take the pokeweed, for instance. The leaves are edible when it’s just starting to grow, but quickly become toxic. 
+
+Similarly, the mayapple fruit is safe when it’s ripe, but everything else about the plant is dangerous. 
+
+Always prioritize identifying familiar foods and understand the plant’s stage of growth before consumption.  Don’t rely on guesswork – it’s a matter of life and death.",5.381948709487915,"[0.6924250346749843, 0.6904526221069635, 0.6443016977642052]",0.6757264515153842,"['minilm_FM3-05-70_page_157', 'minilm_FM21-76_page_99', 'minilm_FM21-76_page_110']",0.7410714285714286,0.7177881002426147,0.6757264515153842,0.6757264515153842,0.6924250346749843
+gemma3+minilm,What plants are safe to eat in a survival situation?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s talk about food. In a true survival situation, you *must* understand the plants around you. Don’t rely on a few days of starvation – your body needs consistent nourishment to maintain your strength and, frankly, your mental fortitude. 
+
+Plants are a critical resource. They can provide you with food, medicine, and materials for shelter and fire. However, *never* eat anything unless you’re absolutely certain of its identification. 
+
+Focus on familiar plants – things you recognize. And always, always, research the local flora before you go.  A little knowledge can be the difference between life and death out there.",4.414812803268433,"[0.6987810213706271, 0.6596679695839637, 0.656699937567889]",0.6717163095074934,"['minilm_FM3-05-70_fixed_253', 'minilm_FM21-76_fixed_218', 'minilm_FM3-05-70_fixed_254']",0.5894736842105263,0.8036794662475586,0.6717163095074934,0.6717163095074933,0.6987810213706271
+gemma3+minilm,What plants are safe to eat in a survival situation?,sentence,dense_minilm,gemma3,minilm,"(Adjusts my pack, scanning the surroundings)
+
+Right, let's talk about food. In a tough situation, your first priority is finding something you *know* you can eat. Initially, focus on what’s readily available – palms, bamboo, and common fruits. Don’t take chances. 
+
+Tropical zones aren't inherently more dangerous when it comes to poisonous plants, but caution is key. Always, *always* double-check your identification. Utilize the illustrations in Appendix B and C – they’re your lifeline. 
+
+Remember, plants offer more than just sustenance; they provide materials for shelter and even tools for hunting. But when it comes to food, start with the familiar and verify, verify, verify!",4.9554829597473145,"[0.6828953877502686, 0.6650925379598733, 0.6602038108959589]",0.6693972455353668,"['minilm_FM3-05-70_sent_430', 'minilm_FM3-05-70_sent_281', 'minilm_FM21-76_sent_210']",0.4803921568627451,0.7518786191940308,0.6693972455353668,0.6693972455353668,0.6828953877502686
+gemma3+minilm,How can I signal for rescue?,page,dense_minilm,gemma3,minilm,"Right, let’s get this sorted. When you’re out there, your priority is getting found. The quickest way to do that is to make yourself visible. 
+
+First, build a large, clear signal. Think big – a massive “X” or “SOS” on the ground using rocks, branches, or anything you can find. 
+
+If you have a radio, use it! The key is a clear, concise message. ""Mayday, Mayday"" – that's the universal distress signal. Then give them your location, the number of people with you, and exactly what kind of help you need. 
+
+Don't just sit and wait. Be proactive. Make a signal, make noise, and get found.",5.045029401779175,"[0.7457861472804288, 0.7362609903634499, 0.6416403867698701]",0.7078958414712496,"['minilm_FM3-05-70_page_317', 'minilm_FM21-76_page_200', 'minilm_FM21-76_page_208']",0.6565656565656566,0.5775482654571533,0.7078958414712496,0.7078958414712496,0.7457861472804288
+gemma3+minilm,How can I signal for rescue?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s get you out of this. When you’re stranded, your priority is to make yourself visible. You need to be seen, and you need to be understood. 
+
+Firstly, create signals that will stand out. Think large, bold shapes – a massive ‘X’ drawn in the dirt, a perfect circle, or a straight line. These are easily recognized, even from a distance. 
+
+Secondly, use contrast. A big fire, a flash of light – anything that creates a sharp difference against the surrounding landscape. 
+
+Don't just rely on one thing. Practice different methods, adapt them to your surroundings. The key is to be deliberate and persistent. Someone needs to see you, and you need to make sure they do.",5.28576397895813,"[0.7496720332008737, 0.7296112667997215, 0.7262024326949748]",0.7351619108985233,"['minilm_FM3-05-70_fixed_551', 'minilm_FM21-76_fixed_491', 'minilm_FM21-76_fixed_493']",0.5321100917431193,0.5813078880310059,0.7351619108985233,0.7351619108985233,0.7496720332008737
+gemma3+minilm,How can I signal for rescue?,sentence,dense_minilm,gemma3,minilm,"Right, let’s get you out of this. The first thing to understand is that signaling isn’t just about waving a flag – it’s about calculated action. 
+
+You need to assess the situation. Are there friendly forces nearby? If not, a bright signal could draw unwanted attention. 
+
+Now, if you have a radio – *use it*. Familiarize yourself with its operation. It’s your quickest shot at contact. 
+
+Alongside that, use anything reflective – a mirror, a piece of metal – get it high, draw the eye. 
+
+Don’t waste energy on risky signals. Focus on clear, concise communication, and always be aware of your surroundings. Your safety is paramount.",4.979379177093506,"[0.7288239724976739, 0.6645688426984385, 0.6488668795134791]",0.6807532315698639,"['minilm_FM21-76_sent_469', 'minilm_FM3-05-70_sent_502', 'minilm_FM3-05-70_sent_614']",0.5204081632653061,0.6128257513046265,0.6807532315698639,0.6807532315698639,0.7288239724976739
+gemma3+minilm,What should I do if I get lost in the wilderness?,page,dense_minilm,gemma3,minilm,"Right, let's get you out of this. First, stop. Panic is your enemy. You need to establish a calm, methodical approach. 
+
+The immediate priority is shelter and water. Find a natural spot – a slight depression, a thicket – and begin building a basic lean-to. Then, locate a water source, even if it’s just melting snow. 
+
+Movement is key, but do it smart. Don’t thrash through the undergrowth; move deliberately, using your body to navigate. If you're in a dense forest, look for a stream – water flows downhill, often leading to civilization. 
+
+And always, always, maintain a sense of direction. Pay attention to the sun, the stars, and any natural landmarks. Don’t wander aimlessly; have a plan, and stick to it.",5.617895126342773,"[0.47516867153640824, 0.4467917916637665, 0.44360873995849603]",0.4551897343862236,"['minilm_FM3-05-70_page_225', 'minilm_FM3-05-70_page_254', 'minilm_FM3-05-70_page_265']",0.5495495495495496,0.5735657215118408,0.4551897343862236,0.4551897343862236,0.47516867153640824
+gemma3+minilm,What should I do if I get lost in the wilderness?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s get you out of this. First, and this is absolutely critical – stop. Don’t panic. Panic burns energy and clouds your judgment. 
+
+The immediate priority is shelter. Find or create a basic shelter, even if it’s just a natural depression or leaning branches. Then, focus on warmth. If you have anything at all – a piece of cloth, dry leaves – build a makeshift sleeping bag. 
+
+Next, assess your situation. Try to determine where you last knew your location. Mark your path clearly – a pile of stones, a broken branch – so you can backtrack if necessary. 
+
+And most importantly, conserve energy. Don’t waste movement. Stay put, stay warm, and stay alive.",4.967526435852051,"[0.5097058605335143, 0.5070830765786832, 0.5051600173036043]",0.5073163181386007,"['minilm_FM21-76_fixed_519', 'minilm_FM3-05-70_fixed_399', 'minilm_FM3-05-70_fixed_439']",0.40384615384615385,0.4217517077922821,0.5073163181386007,0.5073163181386006,0.5097058605335143
+gemma3+minilm,What should I do if I get lost in the wilderness?,sentence,dense_minilm,gemma3,minilm,"Right, let’s get you out of this. First, panic is your enemy. Take a deep breath and assess – *slowly*. 
+
+The biggest thing is visibility. If you’re in a whiteout, a snowy landscape, you need to break that monotony. Cross bridges at right angles, probing ahead with a pole – find the strongest point. Don’t just stumble across; distribute your weight, use snowshoes if you have them. 
+
+And in a dense jungle? Move with intention. Slide, don’t blunder. 
+
+Finally, shelter and warmth are critical. If you've got a tarp, build a lean-to. If not, create a makeshift sleeping bag from anything dry – leaves, moss, even parachute material – to retain body heat. 
+
+Stay calm, stay observant, and prioritize your immediate needs.",5.679213762283325,"[0.5115813420078936, 0.4901683322054734, 0.47797740101077674]",0.4932423584080479,"['minilm_FM21-76_sent_369', 'minilm_FM3-05-70_sent_420', 'minilm_FM3-05-70_sent_440']",0.584070796460177,0.6307663917541504,0.4932423584080479,0.4932423584080479,0.5115813420078936
+gemma3+minilm,How do I treat a broken bone in the wilderness?,page,dense_minilm,gemma3,minilm,"Right, let’s get this sorted. A broken bone in the wild is a serious situation, and speed is absolutely critical. 
+
+First, assess the injury. We're dealing with fractures – breaks in the bone – and it’s vital to minimize movement. Any manipulation needs to be done with extreme caution. 
+
+Now, there are two main types: open, where the bone is sticking out through the skin, and closed. An open fracture needs immediate attention as an open wound. 
+
+If you notice the area below the break becoming numb, swelling, cool, or pale, and the person shows signs of shock, you've likely got a vessel compromised. Control this immediately. 
+
+Immobilize the area as best you can – splinting is key. Focus on stabilization and getting the person to medical help as quickly as possible. Don’t try to set the bone yourself; that’s for trained professionals.",6.14836573600769,"[0.648745464242687, 0.5811256553650919, 0.521293150503393]",0.5837214233703906,"['minilm_FM21-76_page_28', 'minilm_FM21-76_page_27', 'minilm_FM3-05-70_page_48']",0.6115107913669064,0.7011870741844177,0.5837214233703906,0.5837214233703906,0.648745464242687
+gemma3+minilm,How do I treat a broken bone in the wilderness?,fixed_size,dense_minilm,gemma3,minilm,"Right, let’s get this sorted. A broken bone in the wild is a serious situation, and speed is absolutely critical. 
+
+First, minimize movement. Any further manipulation of the injured area could cause significant damage – nerve or blood vessel compression is a real threat. 
+
+Now, your priority is warmth. Shock is a massive killer in these scenarios, and a fracture massively increases the risk. Build a shelter, insulate the victim, and get them warm. Use whatever you have – a sleeping bag, extra clothing, a fire – anything to raise their core temperature. 
+
+If they're conscious, give them small sips of warm fluids, ideally with salt or sugar to help maintain hydration. Monitor them closely for any signs of worsening – numbness, swelling, a pale complexion, or any indication of shock. 
+
+Get them stabilized, and then we focus on getting them rescued.",5.79826283454895,"[0.6714473792275303, 0.6625595137043329, 0.618548221158377]",0.6508517046967467,"['minilm_FM21-76_fixed_72', 'minilm_FM3-05-70_fixed_78', 'minilm_FM3-05-70_fixed_76']",0.47692307692307695,0.7248092889785767,0.6508517046967467,0.6508517046967467,0.6714473792275303
+gemma3+minilm,How do I treat a broken bone in the wilderness?,sentence,dense_minilm,gemma3,minilm,"Right, let’s get this sorted. A broken bone is a serious situation, but staying calm is absolutely key. 
+
+First, assess the situation – is the bleeding severe? If so, we need to control it immediately. A major vessel cut is a critical threat. Rest the victim, and start replacing lost fluids. 
+
+Now, for the break itself, we can use leverage. If it's a smaller bone like an arm or leg, we can manually apply traction – pulling it gently upwards. You can create a system using a tree branch to assist with this. 
+
+But be aware, a broken thighbone is a different beast. It’s incredibly strong, and we’ll need to be careful. 
+
+Regardless, keep the person warm. Wet clothing is the enemy here. Build a shelter, use warm liquids, and do everything you can to maintain their body temperature. 
+
+This is about stabilization and conservation of energy. Let’s get them",6.331373453140259,"[0.6355263077243316, 0.5894586074956646, 0.5825312842025464]",0.6025053998075142,"['minilm_FM21-76_sent_64', 'minilm_FM3-05-70_sent_79', 'minilm_FM3-05-70_sent_76']",0.48201438848920863,0.7132378816604614,0.6025053998075142,0.6025053998075142,0.6355263077243316
+gemma3+minilm,What are the signs of hypothermia and how do I treat it?,page,dense_minilm,gemma3,minilm,"Right, let’s talk about this – hypothermia. It’s a serious threat, and you need to recognize it fast. The first sign is almost always shivering, but don’t just dismiss it. That shivering can quickly spiral out of control, making it impossible for you to do anything useful. 
+
+The key is prevention, always. But if you start to feel that uncontrollable shaking, get yourself into cover. Layer up – anything to reduce heat loss. 
+
+If you suspect you’re getting cold, you need to warm yourself *slowly*. Absolutely *do not* try to warm up with direct heat like a fire. That can cause further damage. Instead, immerse the affected area in warm water – around 99 to 109 degrees Fahrenheit. 
+
+Keep checking yourself, and if you're alone, cover your face and nose. Stay calm, and get yourself warm. That’s the priority.",6.272076845169067,"[0.5845191316965311, 0.5665393628131313, 0.5491121849675481]",0.5667235598257369,"['minilm_FM21-76_page_150', 'minilm_FM3-05-70_page_236', 'minilm_FM3-05-70_page_64']",0.5882352941176471,0.6769974231719971,0.5667235598257369,0.5667235598257369,0.5845191316965311
+gemma3+minilm,What are the signs of hypothermia and how do I treat it?,fixed_size,dense_minilm,gemma3,minilm,"Right, let's get this sorted. Hypothermia is a serious threat – it’s about your body losing heat faster than it can generate it. The first sign you’ll see is shivering, and it’ll quickly escalate, making it hard to think clearly or take care of yourself. 
+
+Beyond that, watch for confusion, irritability, and a pale, clammy skin. You need to act *immediately*. The best thing you can do is get the person out of the cold, get them into shelter, and try to warm them up. If possible, elevate their legs to improve circulation. Don't let them sweat – that will actually accelerate heat loss. Get them dry, and if you have anything to create a small fire, that's a huge help.  Don’t delay, this can quickly become life-threatening.",5.623555421829224,"[0.6041556907157246, 0.5661597287820718, 0.5591414114712353]",0.5764856103230106,"['minilm_FM21-76_fixed_356', 'minilm_FM21-76_fixed_317', 'minilm_FM3-05-70_fixed_404']",0.528,0.6868243217468262,0.5764856103230106,0.5764856103230106,0.6041556907157246
+gemma3+minilm,What are the signs of hypothermia and how do I treat it?,sentence,dense_minilm,gemma3,minilm,"Right, listen closely. Hypothermia is a serious threat when you’re out in the cold. It's when your body loses heat faster than it can replace it. You’ll start to notice shivering, often accompanied by shouting, struggling, and a profound sense of weakness. You might even find yourself unconscious. 
+
+The key is early recognition. If you’re feeling any of these symptoms, *immediately* stop what you’re doing. Get yourself into a sheltered spot, remove any wet clothing, and build a fire if possible.  You need to warm yourself up as quickly as possible.  Treat for dehydration with lightly salted water – that’s crucial.  Don’t let it progress.  A rapid drop in body temperature can lead to cardiac arrest, so act fast.",5.282334804534912,"[0.6106916993377306, 0.5541516476706054, 0.5508307036211005]",0.5718913502098122,"['minilm_FM21-76_sent_92', 'minilm_FM3-05-70_sent_445', 'minilm_FM21-76_sent_299']",0.4444444444444444,0.6637661457061768,0.5718913502098122,0.5718913502098122,0.6106916993377306
+mistral+nomic,How do I find water in the desert?,page,dense_nomic,mistral,nomic,"In a desert environment, finding water can be challenging but not impossible. One method is extracting juice from barrel cacti, which are common in some deserts. To do this, carefully cut off the top of a barrel cactus without a machete. It might take time and effort due to its tough rind and long spines. Once you've cut it, mash or squeeze the pulp to extract the juice. However, avoid consuming the pulp itself.
+
+Another approach is finding water sources beneath sandy or dune deserts. Look for low spots where water may have pooled after rainfall or look for footprints of animals that indicate a potential water source. If possible, dig a hole and place a container to collect any seepage.
+
+Remember, always be cautious when consuming desert water as it may contain harmful bacteria. Boiling the water if possible can help purify it before drinking. In",8.346474409103394,"[0.7889768313085016, 0.7693016661078774, 0.7362635863821281]",0.764847361266169,"['nomic_FM3-05-70_page_90', 'nomic_FM21-76_page_135', 'nomic_FM21-76_page_132']",0.6830985915492958,0.9054381847381592,0.764847361266169,0.764847361266169,0.7889768313085016
+mistral+nomic,How do I find water in the desert?,fixed_size,dense_nomic,mistral,nomic,"In the desert, finding water can be a challenge. Here are some practical tips:
+
+1. Trails often lead to water sources, so follow where they converge. Look out for signs like campsites, fire pits, animal droppings, and trampled terrain.
+2. Birds tend to circle over water holes, especially during dawn and sunset when their flight is fast and close to the ground.
+3. Digging behind the first group of sand dunes or in valleys can help you find fresh water that has seeped into the ground.
+4. If you have a container, heat rocks and drop them into a cloth submerged in water. Then hold the cloth over a hole to absorb steam and wring out the water for drinking.
+5. Lastly, consider building an open desert shelter using two layers of parachute material. White is best for reflecting heat, and darker materials for the innermost",4.387160062789917,"[0.8205092901412794, 0.7920053694717805, 0.7629138218326788]",0.7918094938152462,"['nomic_FM3-05-70_fixed_150', 'nomic_FM3-05-70_fixed_148', 'nomic_FM3-05-70_fixed_145']",0.781021897810219,0.8839434385299683,0.7918094938152462,0.7918094938152462,0.8205092901412794
+mistral+nomic,How do I find water in the desert?,sentence,dense_nomic,mistral,nomic,"In a desert environment, finding water is crucial for survival. Here are some strategies to help you locate potential water sources:
+
+1. Follow Trails: Converging trails often lead to water sources. Look out for signs of camps, campfire ashes, animal droppings, and trampled terrain, which may indicate the presence of water.
+
+2. Bird Activity: Observe flocks of birds circling over water holes, especially at dawn and sunset.
+
+3. Mirages: Be aware of mirages, which can deceive you about the presence of water. However, if a mirage persists for an extended period or appears to be moving, it might indicate a real water source.
+
+4. Low Rainfall: Keep in mind that most deserts receive very little rainfall and that when it does, it quickly runs off the ground surface. So, if you encounter any signs of recent rainfall such as damp soil, dried",4.471027851104736,"[0.8241793570681957, 0.7590389304421507, 0.7576470967768686]",0.7802884614290716,"['nomic_FM3-05-70_sent_156', 'nomic_FM3-05-70_sent_387', 'nomic_FM21-76_sent_288']",0.562962962962963,0.9158469438552856,0.7802884614290716,0.7802884614290716,0.8241793570681957
+mistral+nomic,What should I do if I encounter a venomous snake?,page,dense_nomic,mistral,nomic,"If you encounter a venomous snake, it's crucial to maintain a safe distance. Never attempt to tease or molest them as they can become aggressive. Avoid putting your hands into dark places without investigating first and be cautious when stepping over fallen trees or walking through heavy brush and tall grass.
+
+If you inadvertently come into contact with a snake, stay calm and apply a pressure immobilization bandage around the bite area to limit venom spread. Seek medical help immediately. Always wear proper footgear, particularly at night, and check your bedding, shelter, and clothing for snakes before use. Use sticks to turn logs and rocks instead of your hands. Remember, snakes cannot close their eyes, so a seemingly asleep snake could be alert and ready to strike.",3.7631282806396484,"[0.7817448657345412, 0.7620108459615009, 0.7444035422236353]",0.7627197513065592,"['nomic_FM3-05-70_page_531', 'nomic_FM21-76_page_32', 'nomic_FM3-05-70_page_184']",0.7540983606557377,0.8685344457626343,0.7627197513065592,0.7627197513065592,0.7817448657345412
+mistral+nomic,What should I do if I encounter a venomous snake?,fixed_size,dense_nomic,mistral,nomic,"If you come across a venomous snake while exploring, it's essential to maintain a safe distance. Never attempt to handle or provoke these creatures. Instead, carefully back away from the area, ensuring not to panic and make sudden movements that might scare the snake further. Avoid sleeping near brush, tall grass, large boulders, or trees where snakes may be hiding. Additionally, avoid putting your hands into dark places like rock crevices, heavy brush, or hollow logs without first investigating. Lastly, remember to walk carefully, watch where you step, and look closely when picking fruit or moving around water. These precautions can help minimize the risk of accidental snakebites in areas with venomous snakes.",3.4934747219085693,"[0.8165181218952207, 0.7970906283307369, 0.7964017944235391]",0.803336848216499,"['nomic_FM3-05-70_fixed_304', 'nomic_FM3-05-70_fixed_832', 'nomic_FM21-76_fixed_260']",0.6306306306306306,0.9123940467834473,0.803336848216499,0.803336848216499,0.8165181218952207
+mistral+nomic,What should I do if I encounter a venomous snake?,sentence,dense_nomic,mistral,nomic,"Encountering a venomous snake can be nerve-wracking, but it's important to stay calm and act quickly. Firstly, avoid any close contact with the snake, as guidelines for identifying venomous snakes often require manipulation which could provoke it. If you suspect a bite from a poisonous snake, look out for symptoms such as spontaneous bleeding, pain at the site of the bite, swelling, and breathing difficulty or paralysis within 1.5 to 2 hours.
+
+If a bite does occur, reassure the victim, keep them still, and remove any constricting items like watches or bracelets. Clean the bite area and maintain an airway, especially if bitten near the neck. If possible, administer fluids intravenously to help counteract the venom's effects. Seek immediate medical attention, as rapid treatment is crucial for a positive outcome.",4.279863119125366,"[0.7782178059837886, 0.7771109847137563, 0.7770356706331002]",0.7774548204435484,"['nomic_FM3-05-70_sent_334', 'nomic_FM21-76_sent_78', 'nomic_FM3-05-70_sent_96']",0.6532258064516129,0.9183826446533203,0.7774548204435484,0.7774548204435483,0.7782178059837886
+mistral+nomic,How can I build a shelter in cold weather?,page,dense_nomic,mistral,nomic,"To build a shelter in cold weather, you can opt for either a Tree Pit or Snow Trench Shelter. For the Tree Pit Shelter, find a tree with bushy branches and dig out snow around it until desired depth. Pack the top and inside of the hole with snow for support. Cover the pit with evergreen boughs for additional overhead cover.
+
+For the Snow Trench Shelter, if in compacted snow, cut snow blocks as overhead cover or use a poncho/material. Build only one entrance, using a snow block or rucksack as a door. If not in compacted snow, create a Snow Block and Parachute Shelter by making a tripod with stakes and a long ridgepole, anchoring it to a tree, and propping large sticks along both sides for ribbing. Ensure the shelter is wide enough at the entrance for comfort.",4.120425224304199,"[0.814466191516103, 0.8113770546384146, 0.8046031713115228]",0.8101488058220134,"['nomic_FM21-76_page_49', 'nomic_FM3-05-70_page_244', 'nomic_FM21-76_page_48']",0.9389312977099237,0.9117476940155029,0.8101488058220134,0.8101488058220134,0.814466191516103
+mistral+nomic,How can I build a shelter in cold weather?,fixed_size,dense_nomic,mistral,nomic,"To build a shelter in cold weather, consider creating an insulated structure like a snow cave or a quinzee. Here's a basic guide for each:
+
+1. Snow Cave (or igloo): Find a deep drift of snow, ideally 3 meters deep. Dig into the snow, making sure to keep the roof arched for strength and to allow melted snow to drain down the sides. Build your sleeping platform higher than the entrance for better insulation. Fill the interior with light, dry debris to add extra insulation.
+
+2. Quinzee: First, pile up a mound of snow that's at least 1.5 meters high and 3 meters wide. Once you have your base, start digging from the top, leaving an entrance on one side. As you dig, add more snow on top to maintain the structure. Inside, fill the space with insulating materials like grass, pine needles, or",4.346106290817261,"[0.8266259178951337, 0.8247311897393199, 0.817233741498324]",0.8228636163775925,"['nomic_FM21-76_fixed_126', 'nomic_FM3-05-70_fixed_417', 'nomic_FM21-76_fixed_369']",0.706766917293233,0.9153362512588501,0.8228636163775925,0.8228636163775925,0.8266259178951337
+mistral+nomic,How can I build a shelter in cold weather?,sentence,dense_nomic,mistral,nomic,"To construct a shelter in cold weather, follow these steps:
+
+1. Look for a snowdrift that's at least 3 meters deep. You'll need to dig into it and shape the shelter.
+
+2. Build an arch-shaped roof for strength and to allow melted snow to drain down the sides. Make sure your sleeping platform is higher than the entrance, keeping the heat in and wind out.
+
+3. Separate the sleeping platform from the snow cave's walls or dig a small trench between them. This prevents melting snow from wetting you and your equipment.
+
+4. Keep the shelter no larger than needed to reduce heating space. Remember, it takes time and energy to build, so make it as efficient as possible.
+
+5. Always ventilate an enclosed shelter, especially if you plan on building a fire inside. Block the entrance with a rucksack or snow block for added warmth.",4.349339485168457,"[0.8531947849291881, 0.8292097205670593, 0.8265995217602993]",0.8363346757521822,"['nomic_FM3-05-70_sent_458', 'nomic_FM3-05-70_sent_461', 'nomic_FM21-76_sent_348']",0.8394160583941606,0.9402552843093872,0.8363346757521822,0.8363346757521822,0.8531947849291881
+mistral+nomic,What are the best methods to purify water for drinking?,page,dense_nomic,mistral,nomic,"To ensure safe drinking water, there are several effective methods you can use. Firstly, boiling is a reliable way to kill off harmful bacteria and microorganisms. Secondly, creating a homemade filter using materials like sand, charcoal, or cloth within a bamboo, hollow log, or piece of clothing can help clear out impurities. Lastly, adding activated charcoal from your fire can aid in removing any unpleasant odors. Remember, these procedures only make the water more palatable; it's essential to purify all collected water before drinking, especially from sources like lakes, ponds, or streams, particularly near human settlements or in tropical areas.",3.1540305614471436,"[0.7722371253446252, 0.7650746163255671, 0.7527335537860622]",0.7633484318187514,"['nomic_FM21-76_page_61', 'nomic_FM3-05-70_page_100', 'nomic_FM21-76_page_62']",0.6494845360824743,0.8760335445404053,0.7633484318187514,0.7633484318187514,0.7722371253446252
+mistral+nomic,What are the best methods to purify water for drinking?,fixed_size,dense_nomic,mistral,nomic,"In survival situations, there are a few effective ways to purify water for drinking. One method is using a makeshift still, which can help convert saltwater into drinkable water by allowing it to evaporate and condense. You'll need at least three stills to meet your daily water intake needs.
+
+Another option is water purification tablets or 2% tincture of iodine, where you add 5 drops for clear water and 10 drops for cloudy or cold water, then let it stand for 30 minutes before drinking. For a stronger solution, use 2 drops of 10% (military strength) iodine.
+
+Lastly, rainwater collected in clean containers or plants is usually safe for consumption without any additional purification. However, it's still recommended to boil the water if possible to ensure its safety. Always remember to follow these guidelines and use caution when sourcing",4.335468292236328,"[0.7870501889020778, 0.7773753386241945, 0.7613951624844957]",0.7752735633369227,"['nomic_FM21-76_fixed_143', 'nomic_FM3-05-70_fixed_164', 'nomic_FM3-05-70_fixed_163']",0.7014925373134329,0.9239228367805481,0.7752735633369227,0.7752735633369227,0.7870501889020778
+mistral+nomic,What are the best methods to purify water for drinking?,sentence,dense_nomic,mistral,nomic,"When it comes to purifying water for drinking in various natural settings, there are several effective methods you can utilize. Here are three of them:
+
+1. Boiling: This method is straightforward and highly effective. Simply bring the water to a rolling boil for at least one minute, then let it cool before consuming.
+
+2. Chemical Treatment: In cases where boiling isn't an option or you need to treat larger amounts of water, chemical purification can be beneficial. You can use iodine tablets (5 tablets per liter) or tincture of iodine (5 drops of a 2% solution per liter). Alternatively, potassium permanganate, such as Condy's Crystals, can also be used. Add three small crystals to one liter of water and wait for the water to turn bright pink before letting it settle for 30 minutes before drinking.
+
+3. Fil",4.466717481613159,"[0.800682190968428, 0.778748604811071, 0.7597289640487168]",0.7797199199427386,"['nomic_FM3-05-70_sent_173', 'nomic_FM21-76_sent_132', 'nomic_FM3-05-70_sent_175']",0.6076923076923076,0.8745825886726379,0.7797199199427386,0.7797199199427386,0.800682190968428
+mistral+nomic,How do I start a fire without matches?,page,dense_nomic,mistral,nomic,"To start a fire without matches, you can use a convex lens (from binoculars, camera, telescopic sights, or magnifying glasses) on bright sunny days. Angle the lens to concentrate the sun's rays onto dry tinder, creating enough heat to ignite it.
+
+Alternatively, charred cloth can be used to hold a spark for long periods, allowing you to start a fire even without matches. Make sure the tinder is absolutely dry for best results. Always light your fire from the upwind side and arrange the tinder, kindling, and fuel properly to ensure it burns as long as needed.",3.149169921875,"[0.7187962368217883, 0.7018856105302529, 0.6850924349096819]",0.7019247607539075,"['nomic_FM21-76_page_68', 'nomic_FM3-05-70_page_111', 'nomic_FM21-76_page_66']",0.8817204301075269,0.9107378721237183,0.7019247607539075,0.7019247607539078,0.7187962368217883
+mistral+nomic,How do I start a fire without matches?,fixed_size,dense_nomic,mistral,nomic,"In situations where you don't have matches, there are still ways to start a fire. One method is using a primitive igniter like a flint and steel. Strike the flint with the steel to create sparks which can ignite tinder. Another option is the sun's rays - focus sunlight through a lens (such as binoculars or a magnifying glass) onto dry tinder to start a fire on bright, sunny days. Lastly, you can create friction by using a fireboard and hand drill, which requires more effort but can work in various weather conditions. Always ensure your tinder is dry for easy ignition.",3.167255401611328,"[0.7160842425766772, 0.7018545819719163, 0.6864669410095542]",0.7014685885193827,"['nomic_FM21-76_fixed_154', 'nomic_FM3-05-70_fixed_180', 'nomic_FM3-05-70_fixed_179']",0.5319148936170213,0.9285402297973633,0.7014685885193827,0.7014685885193827,0.7160842425766772
+mistral+nomic,How do I start a fire without matches?,sentence,dense_nomic,mistral,nomic,"If you find yourself in a situation where you don't have matches, there are several primitive methods to start a fire. One effective way is by using a fireboard and hand drill. Here's a simplified guide:
+
+1. Find a hard, dry, flat piece of wood (fireboard) and a straight, smooth stick (drill). Carve a small cup-like depression on one end of the fireboard.
+
+2. Place your foot on the fireboard to keep it stable. Loop a bowstring over the drill and position it in the precut depression on the fireboard.
+
+3. Hold the drill with one hand, place a small piece of dry, fluffy tinder (like fine wood shavings or dried grass) in the cup on the fireboard.
+
+4. Start rotating the drill by pulling and pushing the bowstring. As you gain momentum, apply more downward pressure and",4.470041751861572,"[0.7177149850162203, 0.7090828289550246, 0.688786302769784]",0.705194705580343,"['nomic_FM21-76_sent_143', 'nomic_FM3-05-70_sent_195', 'nomic_FM21-76_sent_149']",0.5714285714285714,0.8608132004737854,0.705194705580343,0.705194705580343,0.7177149850162203
+mistral+nomic,What plants are safe to eat in a survival situation?,page,dense_nomic,mistral,nomic,"In a survival situation, it's crucial to be cautious when consuming wild plants. Some edible plants include dandelion greens, plantain leaves, and wild strawberries. However, always double-check your identification to avoid potential poisonous lookalikes such as poison hemlock or water hemlock. Learn about local flora and familiarize yourself with safe, nutritious plants in the area you're surviving in. A good rule of thumb is: if you're unsure, don't eat it!",2.5972132682800293,"[0.8172291785789545, 0.7993931521956498, 0.7985117185998811]",0.8050446831248284,"['nomic_FM3-05-70_page_157', 'nomic_FM3-05-70_page_158', 'nomic_FM21-76_page_99']",0.6338028169014085,0.9098479151725769,0.8050446831248284,0.8050446831248285,0.8172291785789545
+mistral+nomic,What plants are safe to eat in a survival situation?,fixed_size,dense_nomic,mistral,nomic,"In a survival situation, it's crucial to identify edible plants that can help sustain you. Here are some common examples:
+
+1. Dandelions: The leaves and roots of dandelions are edible and rich in vitamins A, C, and K. Be careful not to consume too many as they can have a laxative effect.
+
+2. Purslane: This succulent plant is high in omega-3 fatty acids and can be eaten raw or cooked.
+
+3. Plantain (not banana): The leaves of the common plantain are edible and have a mild flavor. They can be cooked like spinach or used raw in salads.
+
+4. Clover: White clover blossoms and the young leaves can be eaten raw or cooked. Avoid consuming too much, as they can cause bloating.
+
+5. Nettles: After cooking, nett",4.351646900177002,"[0.853785136766407, 0.8125367330372159, 0.8105405001476653]",0.8256207899837626,"['nomic_FM3-05-70_fixed_253', 'nomic_FM21-76_fixed_217', 'nomic_FM21-76_fixed_218']",0.47413793103448276,0.8480595350265503,0.8256207899837626,0.8256207899837626,0.853785136766407
+mistral+nomic,What plants are safe to eat in a survival situation?,sentence,dense_nomic,mistral,nomic,"In a survival situation, your first choice should be root vegetables such as potatoes, turnips, carrots, or others that grow underground. These are the safest to eat after scrubbing them thoroughly and removing their skins. Additionally, it's essential to avoid any plants with contamination from fallout accumulation on their surfaces or radioactive elements absorbed through roots. Always be cautious when identifying edible plants in the wild, as many can be poisonous if consumed incorrectly.",2.2997236251831055,"[0.8123472212909574, 0.8124961949831505, 0.8077738435971249]",0.8108724199570775,"['nomic_FM21-76_sent_209', 'nomic_FM3-05-70_sent_280', 'nomic_FM3-05-70_sent_730']",0.7808219178082192,0.8962877988815308,0.8108724199570775,0.8108724199570775,0.8123472212909574
+mistral+nomic,How can I signal for rescue?,page,dense_nomic,mistral,nomic,"To signal for rescue, here are a few methods you might find useful:
+
+1. Radio Communication: Use the AN/PRC-90 or AN/PRC-112 survival radios if available. Transmit your location, number of survivors, and any specific help needed.
+
+2. Audio Signals: Whistles are effective for long distances. Three short blasts is an international distress signal. You can also use gunshots as a last resort, but be aware that this could attract unwanted attention.
+
+3. Visual Signals: Create a smoke signal using materials like cloth and dryer lint, or build a mirror flash reflector with any shiny material you find. This can help rescuers spot you from the air.
+
+4. Voice Communication: If you're close enough to an aircraft, you can try to get their attention by shouting or waving. Remember to use the appropriate distress call ""Mayday",4.464136838912964,"[0.7430936522976435, 0.7374965773207681, 0.7313875122487566]",0.7373259139557228,"['nomic_FM21-76_page_208', 'nomic_FM3-05-70_page_327', 'nomic_FM3-05-70_page_333']",0.5681818181818182,0.8900688290596008,0.7373259139557228,0.7373259139557228,0.7430936522976435
+mistral+nomic,How can I signal for rescue?,fixed_size,dense_nomic,mistral,nomic,"In a survival situation, signaling for help is crucial. Here are some practical methods based on your provided context:
+
+1. Use visual or electronic signaling devices if available. This could be a flag, reflective material on an oar, or an emergency radio. Raise them as high as possible to attract attention.
+
+2. Operate the emergency radio according to the instructions provided. Use it only when friendly aircraft are in the area.
+
+3. Learn various signaling techniques, devices, and articles described in manuals. Adapt these methods for different environments and practice using them before needed. Preplanned, practiced signals can increase your chances of rescue.",3.210066795349121,"[0.8083891562965807, 0.7916639264872432, 0.7541836428565555]",0.7847455752134597,"['nomic_FM3-05-70_fixed_452', 'nomic_FM21-76_fixed_493', 'nomic_FM3-05-70_fixed_553']",0.7448979591836735,0.9058612585067749,0.7847455752134597,0.7847455752134597,0.8083891562965807
+mistral+nomic,How can I signal for rescue?,sentence,dense_nomic,mistral,nomic,"To increase your chances of being rescued, employ various visual and audio signaling methods. Firstly, raise any available flags or reflective materials such as an oar high to attract attention. Secondly, utilize emergency radios like the AN/PRC-90 or AN/PRC-112 if friendly aircraft are nearby. Ensure you know how to operate them and send/receive messages effectively.
+
+Audio signals can also be useful; whistles, gunshots, or other loud noises can help draw rescuers towards you. Lastly, don't hesitate to use sea dye markers when needed as they might be your last chance for a rescue signal. Always remember, becoming familiar with the radios in your unit and learning how to operate them is crucial. Stay safe!",3.787405490875244,"[0.8327999483434033, 0.7886881044485624, 0.7616785187531189]",0.7943888571816949,"['nomic_FM3-05-70_sent_502', 'nomic_FM21-76_sent_469', 'nomic_FM3-05-70_sent_631']",0.6864406779661016,0.9134002923965454,0.7943888571816949,0.7943888571816949,0.8327999483434033
+mistral+nomic,What should I do if I get lost in the wilderness?,page,dense_nomic,mistral,nomic,"If you find yourself lost in the wilderness, first assess your situation by checking your surroundings, physical condition, and what equipment you have left. In cold or wet climates, put on additional clothing to prevent hypothermia. If you're in a swampy area, be aware of the challenging terrain with thorny undergrowth and reduced visibility. Use the sidestroke or breaststroke to conserve strength if you need to swim through high surf. Lastly, keep your survival plan flexible as conditions may change. Good luck!",2.615899085998535,"[0.6962771678143581, 0.6955757458752984, 0.6732806155709753]",0.6883778430868772,"['nomic_FM3-05-70_page_11', 'nomic_FM21-76_page_142', 'nomic_FM21-76_page_182']",0.8048780487804879,0.8623071908950806,0.6883778430868772,0.6883778430868772,0.6962771678143581
+mistral+nomic,What should I do if I get lost in the wilderness?,fixed_size,dense_nomic,mistral,nomic,"Firstly, don't panic. Take a moment to assess your surroundings and orient yourself using landmarks or your map if you have one. If not, follow animal tracks or game trails as they often lead towards water sources or clearings. Be cautious around electric or telephone lines, as they might be guarded. In dense vegetation, maintain constant awareness of your surroundings to find a general line of travel towards safety. Remember to conserve water and ration supplies if necessary. Always stay observant and use all your senses to evaluate the situation. Most importantly, remember where you are so you can retrace your steps back when found.",3.0020954608917236,"[0.7027200256247632, 0.6943987503171267, 0.7001519931411339]",0.699090256361008,"['nomic_FM3-05-70_fixed_3', 'nomic_FM21-76_fixed_332', 'nomic_FM3-05-70_fixed_380']",0.6990291262135923,0.8506311178207397,0.699090256361008,0.699090256361008,0.7027200256247632
+mistral+nomic,What should I do if I get lost in the wilderness?,sentence,dense_nomic,mistral,nomic,"If you find yourself lost in the wilderness, here are a few steps to help increase your chances of being found:
+
+1. Stay Calm: It's essential to keep a level head and not panic. This will help you think more clearly and make better decisions.
+
+2. Assess Your Surroundings: Try to determine where you are and in which direction you need to go. Look for landmarks, rivers, or mountains that can help guide you.
+
+3. Signal for Help: Make yourself visible to potential rescuers by creating a smoke signal using dry materials and a fire if possible. You can also use mirrors or bright clothing to reflect sunlight.
+
+4. Conserve Energy: Avoid exerting yourself too much as it could lead to exhaustion. Instead, move slowly and efficiently, focusing on finding a water source and shelter to protect yourself from the elements.
+
+5. Stay Put: If possible, stay at your",4.473762035369873,"[0.6864719535280781, 0.6813987634318234, 0.6777952216129722]",0.6818886461909579,"['nomic_FM3-05-70_sent_420', 'nomic_FM3-05-70_sent_419', 'nomic_FM21-76_sent_2']",0.4460431654676259,0.7882317304611206,0.6818886461909579,0.6818886461909579,0.6864719535280781
+mistral+nomic,How do I treat a broken bone in the wilderness?,page,dense_nomic,mistral,nomic,"In case of a broken bone in the wilderness, it's crucial to understand that minimizing manipulation is key due to potential complications such as nerve or blood vessel damage. First, try to immobilize the affected area using available materials like splints (sticks, branches) and bandages. If there's an open fracture, clean the wound carefully using purified water and antiseptic, then cover it with a sterile dressing to prevent infection.
+
+If you suspect severe nerve or vessel damage due to signs of shock, numbness, swelling, coolness, or pallor below the break, prioritize control of internal bleeding. Use pressure dressings, tourniquets, or pressure points if necessary. In all cases, evacuate the injured person as soon as possible to receive proper medical attention.",3.9346563816070557,"[0.7317751307531445, 0.7280048034426475, 0.7159359740675924]",0.7252386360877948,"['nomic_FM3-05-70_page_48', 'nomic_FM21-76_page_28', 'nomic_FM21-76_page_27']",0.559322033898305,0.8975646495819092,0.7252386360877948,0.7252386360877948,0.7317751307531445
+mistral+nomic,How do I treat a broken bone in the wilderness?,fixed_size,dense_nomic,mistral,nomic,"Treating a broken bone in the wilderness requires care and caution to prevent further complications. Firstly, try to immobilize the affected area using makeshift splints like sticks or sturdy materials. Avoid moving the bone excessively as it could cause damage to nerves or blood vessels.
+
+If you suspect a fracture, look out for signs such as swelling, numbness, coolness, paleness, and shock in the victim. In such cases, minimize manipulation of the break and seek immediate help if possible.
+
+To alleviate discomfort, wrap the broken bone with clean, dry clothing to provide a barrier against cold weather and potential infections. Create a shelter around the injured person to protect them from the elements.
+
+Use external heat sources like warm liquids, prewarmed sleeping bags, hot water bottles, or fires placed on either side of the victim to relieve pain and promote blood circulation. If the victim is",4.483513593673706,"[0.7367100992626882, 0.7292509748173525, 0.716215420363287]",0.7273921648144426,"['nomic_FM21-76_fixed_72', 'nomic_FM3-05-70_fixed_78', 'nomic_FM3-05-70_fixed_76']",0.5704225352112676,0.8535574674606323,0.7273921648144426,0.7273921648144426,0.7367100992626882
+mistral+nomic,How do I treat a broken bone in the wilderness?,sentence,dense_nomic,mistral,nomic,"In the wilderness, treating a broken bone requires careful attention to avoid further injury. If you're alone, find shelter in a depression or behind a tree to protect yourself from the elements. For a fracture, try to immobilize the affected area using improvised materials like sticks, clothing, or even your backpack for splinting.
+
+If it's an open (or compound) fracture where the bone protrudes through the skin, clean the wound gently with sterile water if available, or use purified water from a water filter. Cover the area with a clean cloth to prevent infection and further contamination.
+
+For both types of fractures, avoid manipulating the injured area excessively as it can cause swelling, numbness, or signs of shock, which may indicate that a major vessel has been severed. If this happens, control internal bleeding by elevating the victim's legs above their heart and applying pressure to the wound.",6.6032185554504395,"[0.7235805119478904, 0.7252596593331179, 0.72122444567383]",0.7233548723182794,"['nomic_FM21-76_sent_63', 'nomic_FM21-76_sent_64', 'nomic_FM3-05-70_sent_77']",0.5563380281690141,0.8679792881011963,0.7233548723182794,0.7233548723182794,0.7235805119478904
+mistral+nomic,What are the signs of hypothermia and how do I treat it?,page,dense_nomic,mistral,nomic,"Hypothermia is a condition where your body temperature drops below normal, often due to prolonged exposure to cold or sudden immersion in cold water. Early symptoms include uncontrollable shivering, exhaustion, and confusion. As it progresses, shivering may stop, speech becomes slurred, and there could be loss of coordination.
+
+To treat hypothermia, move the person out of the cold immediately and remove wet clothing. Insulate them with warm blankets or your own clothing if necessary. If available, use an insulated blanket designed for emergencies. If possible, gently warm the center of the body first - chest, neck, armpits, and groin. Never put a hypothermic person in hot water or give them alcohol as it can worsen their condition. Instead, offer warm, non-alcoholic beverages once they're stable. Seek medical help immediately if you suspect hypotherm",5.761728763580322,"[0.8234033526855937, 0.7901036666590776, 0.772569956997758]",0.7953589921141431,"['nomic_FM21-76_page_150', 'nomic_FM3-05-70_page_236', 'nomic_FM21-76_page_36']",0.5909090909090909,0.9351024627685547,0.7953589921141431,0.7953589921141431,0.8234033526855937
+mistral+nomic,What are the signs of hypothermia and how do I treat it?,fixed_size,dense_nomic,mistral,nomic,"Signs of hypothermia include uncontrollable shivering, slurred speech, confusion, slow response time, and possibly loss of consciousness. In severe cases, the victim may become unconscious without any shivering at all. To treat hypothermia, if the person is conscious, provide them with hot, sweetened fluids such as honey or dextrose. If they are unconscious, do not force them to drink. Instead, keep them warm and seek immediate medical attention. Also, be careful not to rewarm the victim too quickly, as this could lead to dangerous complications like heart rhythm disturbances. Additionally, avoid placing the hypothermic person in a sleeping bag with others, as they could potentially also become victims of hypothermia.",4.580993890762329,"[0.8216097659339171, 0.8103489999402163, 0.7815336992068115]",0.804497488360315,"['nomic_FM3-05-70_fixed_404', 'nomic_FM21-76_fixed_356', 'nomic_FM3-05-70_fixed_406']",0.5963302752293578,0.8975290656089783,0.804497488360315,0.804497488360315,0.8216097659339171
+mistral+nomic,What are the signs of hypothermia and how do I treat it?,sentence,dense_nomic,mistral,nomic,"Signs of hypothermia can include shivering, vomiting, diarrhea, struggling, shouting, prolonged unconsciousness, and rebound heatstroke within 48 hours. In severe cases, cardiac arrest may occur. If you suspect someone has hypothermia, move them to a sheltered location away from wind, rain, and cold. Remove wet clothes, dress them in dry clothing, and warm them with blankets or hot water bottles. Replace lost fluids with warm fluids like broth or tea. Treat for dehydration by providing lightly salted water. If the person is unresponsive or shows signs of cardiac arrest, be prepared to perform CPR. Seek immediate medical attention if possible.",4.637605667114258,"[0.8028357150378146, 0.7901084372806497, 0.7891412718055423]",0.7940284747080022,"['nomic_FM3-05-70_sent_445', 'nomic_FM3-05-70_sent_117', 'nomic_FM21-76_sent_92']",0.696969696969697,0.9077047109603882,0.7940284747080022,0.7940284747080022,0.8028357150378146
+mistral+minilm,How do I find water in the desert?,page,dense_minilm,mistral,minilm,"In the harsh desert environment, finding water can be quite challenging. One method is to tap into barrel cacti, but since you might not have a machete, it's difficult and time-consuming to cut through the spines and tough rind. Instead, locate a barrel cactus and carefully cut off its top. Then, squeeze the pulp to obtain the juice. However, do remember that the pulp itself is inedible, so discard it after sucking out the juice.
+
+Another interesting trick is to take advantage of heavy dew, especially before sunrise. Tie rags or tufts of fine grass around your ankles and walk through dew-covered grass. As the rags absorb the dew, wring it into a container to collect water. Repeat this process until you have enough water or the dew disappears. Keep in mind that Australian natives can collect as much as a",5.599707841873169,"[0.6761172018108593, 0.5494382280212979, 0.5297973334662001]",0.5851175877661191,"['minilm_FM3-05-70_page_90', 'minilm_FM21-76_page_143', 'minilm_FM21-76_page_56']",0.8345323741007195,0.7143554091453552,0.5851175877661191,0.5851175877661191,0.6761172018108593
+mistral+minilm,How do I find water in the desert?,fixed_size,dense_minilm,mistral,minilm,"In the scorching desert, finding water is crucial. Firstly, follow trails as they often lead to water sources. Look for signs of camps, campfire ashes, animal droppings, or trampled terrain. Additionally, keep an eye out for flocks of birds circling over water holes, especially during dawn and sunset when their flight patterns become more noticeable.
+
+Another method is digging behind the first group of sand dunes. This will help you collect fresh water that seeps into the ground in valleys and low areas. Lastly, remember to dig deep into a sand dune belt for better chances of finding water. Stay safe!",3.3842272758483887,"[0.701944256417901, 0.6633458849777946, 0.5858646432733473]",0.6503849282230143,"['minilm_FM3-05-70_fixed_150', 'minilm_FM3-05-70_fixed_148', 'minilm_FM3-05-70_fixed_145']",0.7,0.7242919206619263,0.6503849282230143,0.6503849282230143,0.701944256417901
+mistral+minilm,How do I find water in the desert?,sentence,dense_minilm,mistral,minilm,"In the desert, keep an eye out for trails that converge as they often lead to water sources. Look for signs of camps, campfire ashes, animal droppings, or trampled terrain which might mark these trails. Additionally, flocks of birds circling overhead can indicate a water hole, especially at dawn and sunset.",1.804112434387207,"[0.6916648561163341, 0.6405815962333221, 0.5861718533187317]",0.6394727685561293,"['minilm_FM3-05-70_sent_156', 'minilm_FM3-05-70_sent_154', 'minilm_FM3-05-70_sent_394']",0.74,0.9163501262664795,0.6394727685561293,0.6394727685561293,0.6916648561163341
+mistral+minilm,What should I do if I encounter a venomous snake?,page,dense_minilm,mistral,minilm,"When you come across a venomous snake, it's essential to maintain a safe distance and avoid any sudden movements that may provoke it. Try to identify the species if possible, but remember that safely examining a dead snake is the only way to positively determine if it's venomous or not.
+
+In case you cannot identify the snake, be cautious and assume it's venomous. Back away slowly while keeping your eyes on the snake, and never put your hands into dark places, step over fallen trees, walk through heavy brush, or tall grass without carefully checking first for snakes. If a bite occurs, seek medical help immediately.",3.2091026306152344,"[0.6820437958504505, 0.6718449041956721, 0.6676089876755664]",0.6738325625738963,"['minilm_FM3-05-70_page_531', 'minilm_FM3-05-70_page_537', 'minilm_FM3-05-70_page_569']",0.6764705882352942,0.7325048446655273,0.6738325625738963,0.6738325625738963,0.6820437958504505
+mistral+minilm,What should I do if I encounter a venomous snake?,fixed_size,dense_minilm,mistral,minilm,"When you come across a venomous snake, it's crucial to maintain a safe distance and avoid any direct contact. Snakes may become agitated easily, so try not to startle them. If the snake is in your immediate vicinity or poses an imminent threat, slowly back away while keeping your eyes on it. Do not provoke or attempt to catch the snake as it may increase the risk of a bite.
+
+If you have been bitten by a venomous snake, try to stay calm and seek medical attention immediately. Remove any tight clothing around the affected area, but do not apply a tourniquet, suck out the venom, or attempt to walk long distances as these actions are not recommended in survival manuals. Instead, clean the wound with water if possible and splint it to prevent movement while awaiting help.",3.9407615661621094,"[0.6958530901409858, 0.6844487502929707, 0.6704318979205445]",0.6835779127848336,"['minilm_FM3-05-70_fixed_832', 'minilm_FM3-05-70_fixed_304', 'minilm_FM21-76_fixed_87']",0.518796992481203,0.7641514539718628,0.6835779127848336,0.6835779127848337,0.6958530901409858
+mistral+minilm,What should I do if I encounter a venomous snake?,sentence,dense_minilm,mistral,minilm,"If you come across a venomous snake, it's essential to maintain a safe distance and avoid any provocation. Observe the snake from afar and allow it to move away on its own. It is crucial not to make sudden movements or try to capture or kill the snake as this may increase the chance of getting bitten.
+
+If someone gets bitten, stay calm and reassure the victim. Maintain their stillness to slow down venom spread. Remove any constricting items such as watches, rings, bracelets, etc., from the affected area if possible. Clean the bite site with available water and apply a clean, dry dressing or cloth if possible.
+
+Seek immediate medical attention and inform them about the snakebite. If you have access to first aid supplies, administer intravenous fluids to help stabilize the patient until professional help arrives. In some cases, breathing difficulties, paralysis, weakness, twitching,",4.38626503944397,"[0.6887059685302396, 0.6718573502776776, 0.6703701018233161]",0.6769778068770776,"['minilm_FM3-05-70_sent_96', 'minilm_FM3-05-70_sent_897', 'minilm_FM21-76_sent_78']",0.5314685314685315,0.8331854343414307,0.6769778068770776,0.6769778068770776,0.6887059685302396
+mistral+minilm,How can I build a shelter in cold weather?,page,dense_minilm,mistral,minilm,"In cold weather, building a shelter can be crucial for survival. Here's a simple method using resources you might find in nature. First, locate a tree with bushy branches that offer overhead cover. Next, dig out snow around the tree trunk to create a pit of your desired depth and diameter, or until you reach the ground. Pack the snow around the top and inside the hole for support.
+
+Afterward, gather evergreen boughs and place them over the pit to provide additional overhead cover. This shelter will help shield you from the cold, wind, and potentially enemy observation. If you have a snow saw or knife, you can also construct an efficient Snow House or Igloo in areas suitable for cutting snow blocks. Lastly, consider creating a Lean-To Shelter by following similar steps but using natural formations like rocks or logs as the base.",3.9618518352508545,"[0.7035397711221809, 0.6918189484243293, 0.6890111256496975]",0.694789948398736,"['minilm_FM21-76_page_38', 'minilm_FM21-76_page_49', 'minilm_FM21-76_page_155']",0.8057553956834532,0.8555096387863159,0.694789948398736,0.694789948398736,0.7035397711221809
+mistral+minilm,How can I build a shelter in cold weather?,fixed_size,dense_minilm,mistral,minilm,"To create a shelter in cold weather, especially if you're in a wooded area with snow available, follow these steps:
+
+1. Find a tree with bushy branches that offers overhead cover.
+2. Dig out the snow around the tree trunk to your desired depth or until you reach the ground.
+3. Pack the excavated snow around the top and inside of the hole for support.
+4. Gather other evergreen boughs, cut them if necessary, and place them over the pit to act as a roof. This will help insulate and protect you from the cold.
+
+For insect bites, refer to Chapter 11 for information on prevention and treatment. Keep warm and dry to maintain your body temperature in cold weather. Proper clothing is essential for this purpose.",3.698232650756836,"[0.7388043544944156, 0.7081279594164949, 0.6935672377791279]",0.7134998505633461,"['minilm_FM3-05-70_fixed_414', 'minilm_FM21-76_fixed_366', 'minilm_FM21-76_fixed_127']",0.7666666666666667,0.8525981307029724,0.7134998505633461,0.7134998505633461,0.7388043544944156
+mistral+minilm,How can I build a shelter in cold weather?,sentence,dense_minilm,mistral,minilm,"In cold weather, building a shelter is crucial for survival. Here are two effective field-expedient shelters you can construct:
+
+1. Snow Cave Shelter: Find a deep snow drift and dig a tunnel with an entrance about 3 feet high. Make the cave large enough to lie down but not too spacious to conserve heat. Remember, it will get wet while building, so choose a dry location if possible. The insulating qualities of snow make this shelter very effective.
+
+2. Lean-To Shelter: This is another efficient shelter that can be made using available materials like trees or large rocks. Find a windbreak and lean a long branch against it, then cover the branch with foliage, snow, or any other insulating material you have on hand. Construct this shelter in a way that blocks the entrance to keep the heat in and the wind out. Keep the shelter no larger than necessary to reduce heating space.",4.308741331100464,"[0.814384272844251, 0.7132281785655653, 0.7067129855686755]",0.7447751456594972,"['minilm_FM3-05-70_sent_458', 'minilm_FM21-76_sent_348', 'minilm_FM3-05-70_sent_463']",0.7191780821917808,0.8694546222686768,0.7447751456594972,0.7447751456594972,0.814384272844251
+mistral+minilm,What are the best methods to purify water for drinking?,page,dense_minilm,mistral,minilm,"In various scenarios, you'll want to purify water from sources like lakes, ponds, swamps, or streams—especially if they're near human settlements or in tropical regions. One effective method is boiling the water (as mentioned in Figure 6-9). However, when you don't have a proper container, improvise one with plastic or water-resistant cloth, pleating it to form a bowl, and hold the pleats using pins or other items. Stay alert for natural resources that can help replenish your water supply. It's crucial not to drink untreated water from potentially contaminated sources.",3.0521228313446045,"[0.7285316094928419, 0.6805193244789813, 0.5654843135778193]",0.6581784158498808,"['minilm_FM3-05-70_page_100', 'minilm_FM21-76_page_61', 'minilm_FM21-76_page_55']",0.7472527472527473,0.7914385199546814,0.6581784158498808,0.6581784158498808,0.7285316094928419
+mistral+minilm,What are the best methods to purify water for drinking?,fixed_size,dense_minilm,mistral,minilm,"To ensure safe drinking water, you have a few options. The vegetation bag still is highly efficient for producing clean water, especially when freshwater sources are scarce. This method involves filling a plastic bag with plants, adding polluted water, and allowing the soil to filter it as the water condenses on the plastic and drains into a container.
+
+Another effective method is creating a filtering system using sand, crushed rock, charcoal, or cloth inside bamboo, a hollow log, or clothing. This setup helps remove impurities from your water source.
+
+Lastly, if you're dealing with water that has an unpleasant odor, adding activated charcoal can help remove the smell and make it more palatable. Remember, no matter the method used, it's crucial to purify the water further if necessary, as these techniques only clear the water but may not kill harmful bacteria or viruses. Always prioritize safety when sour",4.3580217361450195,"[0.7490614268606451, 0.7287949418626661, 0.5838856716321325]",0.6872473467851479,"['minilm_FM3-05-70_fixed_163', 'minilm_FM21-76_fixed_143', 'minilm_FM3-05-70_fixed_169']",0.6041666666666666,0.7536652088165283,0.6872473467851479,0.6872473467851479,0.7490614268606451
+mistral+minilm,What are the best methods to purify water for drinking?,sentence,dense_minilm,mistral,minilm,"To ensure safe drinking water, it's crucial to purify any water from sources like lakes, ponds, streams, springs, or even vegetation and ground. While rainwater collected in clean containers is generally safe, water from these areas may contain harmful microorganisms.
+
+The best methods for water purification include:
+1. Boiling: Bring the water to a rolling boil for 1 minute (3 minutes at elevations above 6,500 feet) to kill most harmful bacteria and protozoa.
+2. Chemical disinfection: Use iodine or chlorine tablets or solutions according to the manufacturer's instructions. For example, adding 5 drops of a 2% tincture of iodine per quart (liter) of water typically provides adequate purification.
+3. Using water purification tablets: Follow the directions provided for effective purification.
+
+Always prioritize purifying",4.341402292251587,"[0.7317351923728529, 0.7288692942165153, 0.631049558322638]",0.6972180149706687,"['minilm_FM3-05-70_sent_173', 'minilm_FM21-76_sent_132', 'minilm_FM3-05-70_sent_473']",0.6140350877192983,0.8824315667152405,0.6972180149706687,0.6972180149706687,0.7317351923728529
+mistral+minilm,How do I start a fire without matches?,page,dense_minilm,mistral,minilm,"To start a fire without matches, you can use the flint and steel method - one of the oldest and most reliable ways to create sparks. Here's a step-by-step guide:
+
+1. Gather materials: Find dry tinder (like dried grass or leaves), small twigs for kindling, and larger logs as fuel. If you only have a sparking device, having charred cloth can help hold the spark until the tinder catches fire.
+
+2. Prepare the site: Choose an upwind location to start your fire and clear a space for it. Make sure there's no debris that could catch fire easily.
+
+3. Create sparks: Strike a piece of carbon steel against a hard, sharp-edged rock (flint works great) to create sparks. Aim the sparks at your tinder bundle and try to get them to land on it.
+
+4. Ignite the t",4.355383396148682,"[0.6204980787638038, 0.6090420289446018, 0.5923586757594286]",0.6072995944892781,"['minilm_FM3-05-70_page_111', 'minilm_FM21-76_page_69', 'minilm_FM21-76_page_66']",0.689922480620155,0.8043209910392761,0.6072995944892781,0.6072995944892781,0.6204980787638038
+mistral+minilm,How do I start a fire without matches?,fixed_size,dense_minilm,mistral,minilm,"To start a fire without matches, you can use primitive igniters. One method is by creating a friction fire. Here's how:
+
+1. Prepare a fire board and drill. Carve a small depression on the fire board, and create a straight drill from a suitable hardwood.
+
+2. Loop your bowstring over the drill, place it in the precut depression, and hold a socket on top to keep it steady.
+
+3. Saw the bow back and forth to twirl the drill, maintaining a smooth 7-11 motion. Apply downward pressure and continue sawing until you establish a fire.
+
+4. To ensure your fire burns long enough, gather tinder, kindling, and fuel wood in advance. Once the friction fire starts, carefully add these materials to nurture it.
+
+Another option is by using a hand drill and hearth board method,",4.363966941833496,"[0.6166482509048912, 0.603953664513223, 0.6029571297668102]",0.6078530150616414,"['minilm_FM3-05-70_fixed_185', 'minilm_FM21-76_fixed_154', 'minilm_FM3-05-70_fixed_179']",0.7355371900826446,0.7686378359794617,0.6078530150616414,0.6078530150616414,0.6166482509048912
+mistral+minilm,How do I start a fire without matches?,sentence,dense_minilm,mistral,minilm,"To start a fire without matches, you can use the ""Bow Drill"" method. Here's a simple guide:
+
+1. Find a suitable piece of wood (fire board) with a natural hollow or drill notch.
+2. Carve a small cup-like depression in a dry, solid piece of wood (spindle). This will serve as your drill.
+3. Gather tinder (dry, fluffy material like dried grass or wood shavings) and place it under the fire board.
+4. Place the spindle on top of the tinder.
+5. Loop a bowstring over the drill and apply downward pressure while sawing the bow back and forth to twirl the drill.
+6. Once you establish a smooth motion, add more downward pressure and continue the friction until embers form in the tinder bed.
+7. Blow gently on the embers",4.367646217346191,"[0.6393991555065661, 0.6086977566857316, 0.5970366080325373]",0.6150445067416116,"['minilm_FM21-76_sent_143', 'minilm_FM3-05-70_sent_202', 'minilm_FM3-05-70_sent_181']",0.6153846153846154,0.8285335898399353,0.6150445067416116,0.6150445067416116,0.6393991555065661
+mistral+minilm,What plants are safe to eat in a survival situation?,page,dense_minilm,mistral,minilm,"In a survival situation, it's crucial to be aware that some plants can be safe to eat at certain stages of growth, while others may be poisonous. For instance, the leaves of pokeweed are edible when it first sprouts, but become toxic later on. The ripe fruit of mayapple is edible, but all other parts and the green fruit are poisonous. Always exercise caution and learn about local plants before consumption to ensure safety. It's also essential to prioritize finding edible plants as soon as possible after addressing your basic needs like water and shelter.",2.767080307006836,"[0.6924250346749843, 0.6904526221069635, 0.6443016977642052]",0.6757264515153842,"['minilm_FM3-05-70_page_157', 'minilm_FM21-76_page_99', 'minilm_FM21-76_page_110']",0.8404255319148937,0.7673986554145813,0.6757264515153842,0.6757264515153842,0.6924250346749843
+mistral+minilm,What plants are safe to eat in a survival situation?,fixed_size,dense_minilm,mistral,minilm,"In a survival scenario, it's crucial to learn about local flora as some plants can be safe and nutritious food sources. Always be cautious as many plants can be toxic or harmful. To ensure safety, learn to identify edible plants such as dandelions, plantain, and wild berries like raspberries and blackberries. However, never rely solely on plants for sustenance, as a varied diet of plants, fish, and small game is ideal for maintaining strength and peace of mind in a survival situation. Always cross-reference your findings with reliable resources or consult experts when possible.",2.868088960647583,"[0.6987810213706271, 0.6596679695839637, 0.656699937567889]",0.6717163095074934,"['minilm_FM3-05-70_fixed_253', 'minilm_FM21-76_fixed_218', 'minilm_FM3-05-70_fixed_254']",0.5978260869565217,0.7573792934417725,0.6717163095074934,0.6717163095074933,0.6987810213706271
+mistral+minilm,What plants are safe to eat in a survival situation?,sentence,dense_minilm,mistral,minilm,"In a survival situation, it's crucial to be cautious when foraging for edible plants. However, palms, bamboos, and common fruits often serve as reliable food sources in a tropical zone. For detailed descriptions and photographs of these plants, you can refer to Appendix B of the survival manual.
+
+Additionally, plants can offer more than just nutrition—they can provide chemicals for preserving animal hides, poisoning fish, and camouflaging yourself and your equipment. Just remember, it's essential to identify these plants correctly before consuming them or using them for other purposes. You can find illustrations of the described plants in Appendixes B and C of the manual.",3.2318973541259766,"[0.6828953877502686, 0.6650925379598733, 0.6602038108959589]",0.6693972455353668,"['minilm_FM3-05-70_sent_430', 'minilm_FM3-05-70_sent_281', 'minilm_FM21-76_sent_210']",0.8118811881188119,0.7252710461616516,0.6693972455353668,0.6693972455353668,0.6828953877502686
+mistral+minilm,How can I signal for rescue?,page,dense_minilm,mistral,minilm,"In a survival situation, signaling for rescue is crucial. To get the attention of rescuers, create man-made geometric patterns, such as triangles or SOS (three dots then three dashes then three dots) using rocks, branches, or any distinguishable materials. If possible, use reflective material to increase visibility during daylight.
+
+If you have a radio, communicate with friendly aircraft by following the general format: state ""Mayday, Mayday,"" provide your call sign (if any), name, location, number of survivors, available landing sites, and any specific remarks like medical aid or other immediate needs. Good luck!",3.029608964920044,"[0.7457861472804288, 0.7362609903634499, 0.6416403867698701]",0.7078958414712496,"['minilm_FM3-05-70_page_317', 'minilm_FM21-76_page_200', 'minilm_FM21-76_page_208']",0.7282608695652174,0.7177069187164307,0.7078958414712496,0.7078958414712496,0.7457861472804288
+mistral+minilm,How can I signal for rescue?,fixed_size,dense_minilm,mistral,minilm,"To increase your chances of being rescued, use attention-grabbing signals such as geometric patterns like straight lines, circles, triangles, or X's in uninhabited areas. A large fire, flashlight, or contrasting colors or shadows can also work. If possible, move a large, bright object slowly. Adapt these signals to your specific environment and always practice using them before an emergency arises. Additionally, learn about other signaling techniques, devices, and articles for various scenarios. Pre-planned, practiced signals may boost your chances of rescue.",2.7398338317871094,"[0.7496720332008737, 0.7296112667997215, 0.7262024326949748]",0.7351619108985233,"['minilm_FM3-05-70_fixed_551', 'minilm_FM21-76_fixed_491', 'minilm_FM21-76_fixed_493']",0.725,0.7684164047241211,0.7351619108985233,0.7351619108985233,0.7496720332008737
+mistral+minilm,How can I signal for rescue?,sentence,dense_minilm,mistral,minilm,"To signal for rescue, it's crucial to evaluate your situation first. Consider whether seeking help would outweigh potential risks of capture. If friendly aircraft are nearby, using an emergency radio could be the quickest and most reliable way to communicate. Familiarize yourself with its operation instructions.
+
+If a radio isn't available, other visual or electronic signaling devices can be used. For instance, raising a flag or reflecting material high can attract attention. Remember, always ensure your signals won't physically endanger you, as the enemy might get alerted to your location. Be prepared to act swiftly once you decide to signal.",2.9762680530548096,"[0.7288239724976739, 0.6645688426984385, 0.6488668795134791]",0.6807532315698639,"['minilm_FM21-76_sent_469', 'minilm_FM3-05-70_sent_502', 'minilm_FM3-05-70_sent_614']",0.6530612244897959,0.7730502486228943,0.6807532315698639,0.6807532315698639,0.7288239724976739
+mistral+minilm,What should I do if I get lost in the wilderness?,page,dense_minilm,mistral,minilm,"If you find yourself lost in the wilderness, here are some practical tips:
+
+1. Move cautiously but purposefully, using natural cover and concealment to avoid obstacles. Slide between undergrowth by turning your shoulders, shifting hips, bending your body, and adjusting your stride as needed.
+
+2. Make camp early to give yourself enough time to build a shelter. If you're traveling over snow-covered terrain, use snowshoes for easier movement when there is 30 cm or more of snow.
+
+3. Navigate using the direction of swells, times of sunrise and sunset, and other navigational data. If in unfriendly waters, take security measures to avoid detection, such as traveling at night, throwing out a sea anchor, and staying low with the blue side of your camouflage cloth up.",4.00483250617981,"[0.47516867153640824, 0.4467917916637665, 0.44360873995849603]",0.4551897343862236,"['minilm_FM3-05-70_page_225', 'minilm_FM3-05-70_page_254', 'minilm_FM3-05-70_page_265']",0.8114754098360656,0.7059714794158936,0.4551897343862236,0.4551897343862236,0.47516867153640824
+mistral+minilm,What should I do if I get lost in the wilderness?,fixed_size,dense_minilm,mistral,minilm,"If you find yourself lost in the wilderness, don't panic. First, stop and take a moment to assess your surroundings. Look for landmarks or familiar features that can help you orient yourself.
+
+Next, try to retrace your steps to find your previous location. Remember, it's easier to follow a path than to create a new one.
+
+If retracing your steps doesn't work, make a note of any significant features around you, such as trees, rocks, or bodies of water. This information can help guide rescuers to your location.
+
+Also, pay attention to the direction of the sun or stars for guidance on the cardinal directions.
+
+Stay put if possible and build a shelter using available materials to protect yourself from the elements. Make sure it's dry to conserve body heat. If you don't have a sleeping bag, you can make one with parachute cloth or similar material and natural dry",4.3806915283203125,"[0.5097058605335143, 0.5070830765786832, 0.5051600173036043]",0.5073163181386007,"['minilm_FM21-76_fixed_519', 'minilm_FM3-05-70_fixed_399', 'minilm_FM3-05-70_fixed_439']",0.5277777777777778,0.5453433990478516,0.5073163181386007,0.5073163181386006,0.5097058605335143
+mistral+minilm,What should I do if I get lost in the wilderness?,sentence,dense_minilm,mistral,minilm,"If you find yourself lost in the wilderness, here are some practical steps to take:
+
+1. Stay Calm: Panic can cloud your judgment and make it harder to think clearly. Take a moment to catch your breath and assess your situation.
+
+2. Find Your Bearings: If visibility is good, try to identify landmarks or stars for navigation. If not, use a compass if you have one. Remember, in snowy terrain, always cross a snow bridge at right angles to the obstacle it crosses.
+
+3. Move Smoothly: In a jungle, move smoothly by turning your shoulders, shifting your hips, bending your body, and shortening or lengthening your stride as necessary to slide between the undergrowth.
+
+4. Make a Shelter: Make camp early so you have plenty of time to build a shelter. If you don't have a sleeping bag, make one out of parachute",4.379581451416016,"[0.5115813420078936, 0.4901683322054734, 0.47797740101077674]",0.4932423584080479,"['minilm_FM21-76_sent_369', 'minilm_FM3-05-70_sent_420', 'minilm_FM3-05-70_sent_440']",0.7121212121212122,0.6593313813209534,0.4932423584080479,0.4932423584080479,0.5115813420078936
+mistral+minilm,How do I treat a broken bone in the wilderness?,page,dense_minilm,mistral,minilm,"In the wilderness, treating a broken bone requires caution due to potential complications like nerve or blood vessel damage. First, immobilize the fractured limb using a splint made from sturdy materials such as branches or tent poles. Secure it with clothing, bandages, or vines. Avoid moving the bone and apply pressure on the wound to control bleeding if any.
+
+If you suspect an open (compound) fracture where the bone protrudes through the skin, clean the wound gently using water from a natural source and your hands or a sterile cloth. Cover it with a clean bandage and elevate the injured limb whenever possible.
+
+For closed fractures, after immobilizing the bone, apply a sling or brace for support. Monitor the victim closely for signs of shock or swelling, coolness, numbness, or paleness which may indicate complications like severed blood vessels or nerves. If these symptoms",4.3834547996521,"[0.648745464242687, 0.5811256553650919, 0.521293150503393]",0.5837214233703906,"['minilm_FM21-76_page_28', 'minilm_FM21-76_page_27', 'minilm_FM3-05-70_page_48']",0.5869565217391305,0.7423149943351746,0.5837214233703906,0.5837214233703906,0.648745464242687
+mistral+minilm,How do I treat a broken bone in the wilderness?,fixed_size,dense_minilm,mistral,minilm,"Treating a broken bone in the wilderness requires care and caution. Firstly, avoid moving the bone excessively to prevent further damage to nerves or blood vessels. If you suspect a fracture, look for symptoms like numbness, swelling, coolness, or paleness below the break, as well as signs of shock.
+
+Immediately immobilize the affected area using improvised splints such as sticks, branches, or even your backpack. Wrap it with clothing or anything that can provide padding and stability.
+
+Provide warmth to the injured limb by insulating it with dry clothing and creating a makeshift shelter. Use external heat sources like warm liquids, prewarmed sleeping bags, hot water bottles, or fires on either side of the victim for additional warmth.
+
+If the victim is conscious, administer small doses of a warm salt or sugar solution to boost hydration and energy levels. Lastly, seek professional medical",4.38612961769104,"[0.6714473792275303, 0.6625595137043329, 0.618548221158377]",0.6508517046967467,"['minilm_FM21-76_fixed_72', 'minilm_FM3-05-70_fixed_78', 'minilm_FM3-05-70_fixed_76']",0.5899280575539568,0.790199875831604,0.6508517046967467,0.6508517046967467,0.6714473792275303
+mistral+minilm,How do I treat a broken bone in the wilderness?,sentence,dense_minilm,mistral,minilm,"In the wilderness, treating a broken bone requires caution and proper steps. Firstly, immobilize the area using makeshift splints like sticks or branches to prevent further damage. You can create traction by wedging a hand or foot in a tree's V-notch and pulling on the extremity opposite the break.
+
+If the victim is showing signs of shock or internal bleeding, such as coolness, numbness, swelling, or paleness below the break, it's crucial to control internal bleeding by applying pressure with clean cloths and elevating the injured area above heart level.
+
+Replace wet clothing with dry ones immediately and insulate the victim from cold weather using improvised shelters. Provide warmth through external sources like prewarmed sleeping bags, hot water bottles, or fires on either side of the victim. If the victim is conscious, administer warm liquids slowly to prevent shock. In all cases, seek professional medical help",4.385608196258545,"[0.6355263077243316, 0.5894586074956646, 0.5825312842025464]",0.6025053998075142,"['minilm_FM21-76_sent_64', 'minilm_FM3-05-70_sent_79', 'minilm_FM3-05-70_sent_76']",0.6433566433566433,0.7942981719970703,0.6025053998075142,0.6025053998075142,0.6355263077243316
+mistral+minilm,What are the signs of hypothermia and how do I treat it?,page,dense_minilm,mistral,minilm,"Hypothermia is a critical condition caused by body temperatures dropping faster than they can be replaced. Early symptoms include shivering, which may become uncontrollable and interfere with your ability to care for yourself. If you suspect hypothermia, cover the nose and lower part of your face with mittens if alone.
+
+To treat hypothermia, it's essential to move the person out of cold conditions and remove wet clothing. Avoid using open flames as they can aggravate frostbite. Instead, immerse affected areas in warm (99-109°F or 37-42°C) water, which can be determined with the inside wrist or baby formula method. Dry the part and place it against warm skin to prevent further heat loss. Seek immediate medical attention if hypothermia is suspected.",3.972651243209839,"[0.5845191316965311, 0.5665393628131313, 0.5491121849675481]",0.5667235598257369,"['minilm_FM21-76_page_150', 'minilm_FM3-05-70_page_236', 'minilm_FM3-05-70_page_64']",0.7851239669421488,0.8145835399627686,0.5667235598257369,0.5667235598257369,0.5845191316965311
+mistral+minilm,What are the signs of hypothermia and how do I treat it?,fixed_size,dense_minilm,mistral,minilm,"Hypothermia occurs when your body loses heat faster than it can produce, often due to cold exposure or sudden wetting. Initial symptoms include uncontrollable shivering. As hypothermia progresses, you might experience confusion, dizziness, and slurred speech. The shivering may stop, and the skin becomes cold and pale.
+
+To treat hypothermia, first, move the victim to a warm, dry area and remove any wet clothing. Insulate them with blankets or any available materials. Avoid massaging the victim's chest or giving them hot food or drinks as it may cause heart complications. Instead, slowly warm them up by using your body heat if possible. If necessary, use an external heat source like a heated blanket, but be careful not to burn the patient.
+
+In severe cases, seek professional medical help immediately. It's essential to prevent hypothermia in the first place by wearing appropriate",4.375388860702515,"[0.6041556907157246, 0.5661597287820718, 0.5591414114712353]",0.5764856103230106,"['minilm_FM21-76_fixed_356', 'minilm_FM21-76_fixed_317', 'minilm_FM3-05-70_fixed_404']",0.5827338129496403,0.7605482339859009,0.5764856103230106,0.5764856103230106,0.6041556907157246
+mistral+minilm,What are the signs of hypothermia and how do I treat it?,sentence,dense_minilm,mistral,minilm,"Hypothermia is a dangerous condition where your body temperature drops below 36 degrees Celsius (97 degrees Fahrenheit). Early signs include shivering, confusion, slurred speech, and slow movement. As it progresses, you may experience severe muscle cramps, intense cold feeling in the skin, irregular heartbeat, and eventually unconsciousness.
+
+To treat hypothermia, first, seek immediate medical help if possible. If not, remove any wet clothing, cover the person with warm blankets or use body heat if necessary. Insulate them from the ground and wind. If they are conscious, give them warm, sweet drinks like tea or soup. Avoid giving alcohol or caffeine.
+
+In severe cases where they're unconscious, have trouble breathing, or their skin turns blue or pale, start CPR immediately and continue until medical help arrives. Remember to rewarm the person gradually, as rapid warming can cause dangerous",4.36173415184021,"[0.6106916993377306, 0.5541516476706054, 0.5508307036211005]",0.5718913502098122,"['minilm_FM21-76_sent_92', 'minilm_FM3-05-70_sent_445', 'minilm_FM21-76_sent_299']",0.40875912408759124,0.7485210299491882,0.5718913502098122,0.5718913502098122,0.6106916993377306
