@@ -34,8 +34,8 @@ nlp_assignment/
 ├── processed_data/                       # Chunked documents (3 strategies)
 ├── vector_stores/                        # ChromaDB collections (6 total)
 ├── evaluation_results/                   # CSV, JSON, visualizations
-└── survival_chatbot/                     # Production chatbot application
-    ├── chatbot.py                        # Gradio interface with memory
+└── survival_chatbot/                     # Chatbot application
+    ├── chatbot.py                        # Gradio interface
     ├── requirements.txt
     └── README.md
 ```
@@ -80,11 +80,9 @@ Access at `http://127.0.0.1:7860`
 
 ## Key Findings
 
-1. **Page chunking outperforms** fixed-size and sentence-based strategies
-2. **Nomic embeddings** (unnormalized, 768d) achieve highest retrieval scores with manual cosine similarity
-3. **Mistral 7B** provides better context utilization than Gemma 3 4B
-4. **Dense retrieval** (0.77 avg) significantly outperforms TF-IDF (0.19 avg)
-5. **Conversational memory** (6 turns) enables natural multi-turn dialogue
+1. **Nomic embeddings** (unnormalized, 768d) achieve highest retrieval scores with manual cosine similarity
+2. **Mistral 7B** provides better context utilization than Gemma 3 4B
+3. **Dense retrieval** (0.77 avg) significantly outperforms TF-IDF (0.19 avg) and Nomic outperforms MiniLM
 
 ## Evaluation Metrics
 
@@ -92,14 +90,6 @@ Access at `http://127.0.0.1:7860`
 - **Context Overlap**: Jaccard similarity with ground truth context
 - **Generation Time**: LLM response latency
 - **Combined Score**: Weighted average (60% retrieval, 40% overlap)
-
-## Chatbot Features
-
-- Conversational memory (last 6 turns)
-- GPU-accelerated inference
-- Optimal configuration from evaluation
-- Professional Gradio interface
-- Context-aware responses from 881 pages
 
 ## Author
 
